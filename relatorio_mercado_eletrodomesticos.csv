@@ -1,0 +1,601 @@
+﻿ID;Nome do Produto;Categoria;Marca;Preço (R$);Custo Produção (R$);Margem Lucro (%);Consumo kWh;Eficiência;Peso (kg);Região Venda;Canal Venda;Promoção;Avaliação Cliente;Garantia (meses);Data da Venda;Tipo de Cliente;Forma de Pagamento;Fornecedor
+1;Fogão modelo 597;Fogão;Electrolux;1034,58;802,00;29;56.14;A;48.71;Sudeste;E-commerce;Sim;3;12;18/12/2023;Revendedor;PIX;Distribuidora Alfa
+2;Ar Condicionado modelo 120;Ar Condicionado;LG;1288,34;870,50;48;190.66;B;16.57;Sul;E-commerce;Não;3;36;10/06/2022;Consumidor Final;Boleto;Distribuidora Alfa
+3;Máquina de Lavar modelo 721;Máquina de Lavar;Brastemp;1205,62;913,35;32;430.65;C;11.81;Sul;Loja Física;Não;5;36;05/01/2022;Consumidor Final;PIX;Fornecedora Gamma
+4;Fogão modelo 320;Fogão;Consul;640,71;577,22;11;318.75;B;78.57;Sul;Loja Física;Não;4;12;15/03/2023;Revendedor;Boleto;Fornecedor Delta
+5;Ar Condicionado modelo 455;Ar Condicionado;Philco;1862,77;1241,85;50;307.69;D;75.12;Norte;Loja Física;Sim;2;18;05/12/2023;Revendedor;Cartão;Distribuidora Alfa
+6;Secadora modelo 535;Secadora;Philco;1341,69;906,55;48;229.09;D;26.75;Nordeste;E-commerce;Sim;2;12;19/12/2022;Consumidor Final;Cartão;Distribuidora Epsilon
+7;Máquina de Lavar modelo 117;Máquina de Lavar;Brastemp;2543,99;1766,66;44;458.88;C;34.62;Norte;E-commerce;Sim;5;24;08/05/2022;Consumidor Final;Cartão;Distribuidora Epsilon
+8;Micro-ondas modelo 502;Micro-ondas;Whirlpool;1965,03;1535,18;28;318.09;A;52.57;Sudeste;Loja Física;Não;4;36;27/08/2023;Consumidor Final;PIX;Distribuidora Epsilon
+9;Fogão modelo 431;Fogão;LG;499,1;402,50;24;149.44;A;11.26;Nordeste;Loja Física;Sim;1;12;27/12/2023;Revendedor;Dinheiro;Distribuidora Beta
+10;Máquina de Lavar modelo 680;Máquina de Lavar;Brastemp;1754,16;1461,80;20;489.57;C;75.94;Sudeste;Loja Física;Sim;4;24;12/08/2022;Revendedor;Cartão;Fornecedora Gamma
+11;Geladeira modelo 137;Geladeira;Samsung;441,97;324,98;36;338.0;D;17.56;Norte;E-commerce;Sim;2;12;08/05/2022;Consumidor Final;Boleto;Distribuidora Alfa
+12;Micro-ondas modelo 860;Micro-ondas;LG;1843,68;1463,24;26;269.7;A;92.43;Centro-Oeste;E-commerce;Não;3;18;13/09/2022;Revendedor;Boleto;Distribuidora Beta
+13;Secadora modelo 119;Secadora;Electrolux;1524,67;1200,53;27;458.7;D;74.87;Norte;E-commerce;Não;2;18;02/02/2022;Revendedor;PIX;Distribuidora Alfa
+14;Geladeira modelo 653;Geladeira;Philco;461,33;363,25;27;318.97;A;13.33;Sudeste;E-commerce;Não;5;18;10/03/2022;Consumidor Final;Dinheiro;Distribuidora Epsilon
+15;Ar Condicionado modelo 108;Ar Condicionado;LG;1579,08;1187,28;33;430.59;B;23.46;Sul;E-commerce;Não;4;24;20/10/2023;Consumidor Final;Dinheiro;Distribuidora Epsilon
+16;Micro-ondas modelo 747;Micro-ondas;LG;862,64;770,21;12;276.09;D;8.87;Sudeste;E-commerce;Não;3;24;23/06/2022;Revendedor;PIX;Fornecedora Gamma
+17;Secadora modelo 240;Secadora;Electrolux;2165,75;1592,46;36;93.26;D;9.77;Sudeste;E-commerce;Não;4;18;23/01/2022;Revendedor;Dinheiro;Distribuidora Alfa
+18;Secadora modelo 585;Secadora;Consul;1273,44;929,52;37;420.17;D;53.98;Centro-Oeste;E-commerce;Não;4;24;16/04/2023;Consumidor Final;PIX;Fornecedor Delta
+19;Secadora modelo 329;Secadora;Electrolux;461,93;366,61;26;296.9;D;92.57;Sul;E-commerce;Não;4;18;24/09/2023;Revendedor;Dinheiro;Fornecedor Delta
+20;Secadora modelo 441;Secadora;LG;1490,85;1173,90;27;278.79;B;11.59;Sul;E-commerce;Não;2;24;10/01/2022;Revendedor;Dinheiro;Distribuidora Beta
+21;Secadora modelo 291;Secadora;Brastemp;448,56;390,05;15;255.26;C;57.26;Nordeste;Loja Física;Não;3;12;31/05/2022;Consumidor Final;Boleto;Fornecedor Delta
+22;Micro-ondas modelo 518;Micro-ondas;Electrolux;2000,66;1527,22;31;213.53;B;50.2;Nordeste;E-commerce;Não;3;18;10/04/2023;Revendedor;Boleto;Distribuidora Epsilon
+23;Secadora modelo 192;Secadora;Samsung;1485,06;1076,13;38;369.2;C;35.18;Nordeste;E-commerce;Sim;3;36;10/08/2022;Consumidor Final;Dinheiro;Fornecedor Delta
+24;Micro-ondas modelo 394;Micro-ondas;LG;1326,53;1133,79;17;198.54;A;5.32;Norte;Loja Física;Não;4;12;20/04/2023;Consumidor Final;Cartão;Fornecedor Delta
+25;Ar Condicionado modelo 276;Ar Condicionado;Whirlpool;2215,28;1616,99;37;262.29;D;88.42;Sudeste;E-commerce;Não;1;24;19/01/2022;Consumidor Final;Boleto;Distribuidora Epsilon
+26;Máquina de Lavar modelo 892;Máquina de Lavar;Samsung;1407,07;1050,05;34;51.05;B;21.65;Nordeste;E-commerce;Sim;2;36;29/04/2022;Revendedor;Cartão;Fornecedora Gamma
+27;Geladeira modelo 873;Geladeira;Consul;654,56;503,51;30;175.39;B;73.0;Sul;E-commerce;Sim;5;18;22/09/2022;Revendedor;Dinheiro;Distribuidora Epsilon
+28;Geladeira modelo 532;Geladeira;Philco;2139,75;1860,65;15;350.15;A;13.92;Centro-Oeste;Loja Física;Sim;4;24;02/06/2023;Consumidor Final;PIX;Distribuidora Beta
+29;Micro-ondas modelo 395;Micro-ondas;Whirlpool;246,55;212,54;16;246.32;B;88.44;Sudeste;Loja Física;Não;3;18;22/06/2023;Revendedor;Dinheiro;Distribuidora Epsilon
+30;Geladeira modelo 658;Geladeira;Consul;1626,91;1129,80;44;241.04;B;30.0;Sul;E-commerce;Sim;1;12;30/04/2022;Consumidor Final;Dinheiro;Fornecedor Delta
+31;Micro-ondas modelo 208;Micro-ondas;Brastemp;2035,4;1433,38;42;115.37;D;40.75;Sul;Loja Física;Sim;3;12;09/10/2022;Revendedor;Boleto;Distribuidora Epsilon
+32;Máquina de Lavar modelo 994;Máquina de Lavar;Electrolux;648,16;466,30;39;198.94;B;74.01;Nordeste;E-commerce;Sim;4;18;23/11/2022;Consumidor Final;Cartão;Distribuidora Beta
+33;Geladeira modelo 479;Geladeira;Brastemp;609,27;516,33;18;181.07;A;87.5;Sudeste;Loja Física;Não;3;18;10/01/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+34;Geladeira modelo 844;Geladeira;Consul;586,66;492,99;19;250.74;B;21.21;Centro-Oeste;Loja Física;Não;2;36;14/09/2023;Revendedor;Boleto;Distribuidora Alfa
+35;Fogão modelo 692;Fogão;Whirlpool;615,21;484,42;27;489.11;A;69.93;Sul;E-commerce;Sim;2;18;15/05/2023;Consumidor Final;Boleto;Distribuidora Beta
+36;Micro-ondas modelo 134;Micro-ondas;LG;2888,05;1964,66;47;106.41;A;30.39;Sul;E-commerce;Não;4;18;12/07/2023;Consumidor Final;Dinheiro;Fornecedora Gamma
+37;Micro-ondas modelo 910;Micro-ondas;Brastemp;2008,29;1761,66;14;207.75;B;65.62;Sudeste;E-commerce;Não;3;24;17/07/2022;Consumidor Final;Dinheiro;Fornecedora Gamma
+38;Fogão modelo 587;Fogão;Philco;2183,07;1593,48;37;389.42;B;88.04;Sudeste;Loja Física;Não;4;18;20/12/2022;Revendedor;Cartão;Distribuidora Alfa
+39;Máquina de Lavar modelo 713;Máquina de Lavar;Brastemp;552,66;375,96;47;482.24;D;11.22;Centro-Oeste;E-commerce;Sim;4;18;17/10/2022;Revendedor;PIX;Distribuidora Alfa
+40;Micro-ondas modelo 262;Micro-ondas;Samsung;2689,99;1921,42;40;84.49;C;28.59;Norte;Loja Física;Não;2;24;30/09/2023;Consumidor Final;PIX;Fornecedor Delta
+41;Ar Condicionado modelo 944;Ar Condicionado;Consul;1297,74;1109,18;17;460.54;A;70.16;Centro-Oeste;Loja Física;Não;2;36;12/07/2022;Consumidor Final;Boleto;Distribuidora Epsilon
+42;Micro-ondas modelo 644;Micro-ondas;Consul;1827,72;1269,25;44;215.82;A;69.19;Centro-Oeste;Loja Física;Não;4;24;01/12/2023;Revendedor;Dinheiro;Fornecedora Gamma
+43;Ar Condicionado modelo 229;Ar Condicionado;Brastemp;1042,52;891,04;17;171.51;B;20.43;Nordeste;Loja Física;Sim;2;24;10/11/2023;Revendedor;Boleto;Distribuidora Beta
+44;Ar Condicionado modelo 487;Ar Condicionado;Philco;498,15;440,84;13;225.61;A;73.86;Sul;Loja Física;Não;4;18;30/05/2023;Revendedor;PIX;Distribuidora Alfa
+45;Fogão modelo 231;Fogão;Consul;2317,75;1576,70;47;215.49;B;34.22;Sudeste;Loja Física;Não;3;36;30/08/2023;Revendedor;Dinheiro;Distribuidora Alfa
+46;Geladeira modelo 639;Geladeira;LG;961,97;739,98;30;319.69;A;95.2;Nordeste;E-commerce;Sim;3;36;24/04/2023;Consumidor Final;Dinheiro;Distribuidora Alfa
+47;Fogão modelo 660;Fogão;Samsung;2263,98;1855,72;22;60.39;B;86.03;Sudeste;E-commerce;Não;4;18;08/11/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+48;Máquina de Lavar modelo 256;Máquina de Lavar;Philco;266,77;215,14;24;452.43;A;84.05;Sudeste;E-commerce;Não;1;12;16/11/2022;Revendedor;PIX;Distribuidora Beta
+49;Geladeira modelo 338;Geladeira;Consul;1764,55;1297,46;36;107.86;B;83.28;Nordeste;Loja Física;Não;3;12;26/05/2022;Revendedor;PIX;Distribuidora Alfa
+50;Fogão modelo 851;Fogão;Philco;2270,46;1681,82;35;106.91;A;50.48;Sudeste;E-commerce;Sim;5;18;01/11/2023;Consumidor Final;Boleto;Fornecedor Delta
+51;Secadora modelo 572;Secadora;Brastemp;1363;1090,40;25;121.44;D;32.08;Norte;E-commerce;Não;3;12;31/08/2022;Revendedor;PIX;Fornecedora Gamma
+52;Micro-ondas modelo 137;Micro-ondas;Brastemp;2048,4;1679,02;22;366.05;B;32.94;Nordeste;E-commerce;Não;3;24;02/02/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+53;Geladeira modelo 274;Geladeira;Whirlpool;534,4;358,66;49;288.26;A;99.23;Norte;E-commerce;Sim;2;18;01/05/2022;Consumidor Final;Dinheiro;Fornecedor Delta
+54;Ar Condicionado modelo 254;Ar Condicionado;Philco;648,3;563,74;15;202.79;D;27.42;Centro-Oeste;Loja Física;Não;2;24;23/01/2022;Consumidor Final;Boleto;Distribuidora Beta
+55;Micro-ondas modelo 302;Micro-ondas;Brastemp;610,67;508,89;20;253.9;D;89.12;Norte;E-commerce;Não;1;24;26/03/2023;Consumidor Final;Boleto;Distribuidora Beta
+56;Máquina de Lavar modelo 965;Máquina de Lavar;LG;654,67;492,23;33;206.49;B;52.07;Centro-Oeste;Loja Física;Sim;3;18;05/10/2023;Revendedor;Cartão;Fornecedora Gamma
+57;Geladeira modelo 937;Geladeira;LG;804,28;638,32;26;168.09;C;82.87;Nordeste;E-commerce;Não;5;36;09/08/2022;Revendedor;Cartão;Fornecedor Delta
+58;Secadora modelo 932;Secadora;Electrolux;1517,73;1185,73;28;322.71;D;29.31;Sul;E-commerce;Não;5;24;01/04/2023;Consumidor Final;Dinheiro;Distribuidora Epsilon
+59;Secadora modelo 742;Secadora;Philco;1354,13;1167,35;16;75.64;C;90.91;Sul;Loja Física;Não;3;36;02/08/2023;Consumidor Final;PIX;Distribuidora Epsilon
+60;Micro-ondas modelo 627;Micro-ondas;Brastemp;355,87;252,39;41;398.05;C;74.52;Nordeste;E-commerce;Sim;5;24;17/12/2022;Revendedor;Cartão;Fornecedor Delta
+61;Máquina de Lavar modelo 232;Máquina de Lavar;Whirlpool;717,15;623,61;15;430.47;D;81.65;Sul;Loja Física;Sim;2;18;04/04/2023;Revendedor;PIX;Fornecedora Gamma
+62;Micro-ondas modelo 362;Micro-ondas;LG;2213,7;1908,36;16;326.56;D;82.55;Sudeste;Loja Física;Não;4;24;18/09/2022;Revendedor;Boleto;Fornecedora Gamma
+63;Secadora modelo 520;Secadora;Whirlpool;1155,89;889,15;30;402.88;A;23.75;Nordeste;Loja Física;Sim;5;12;23/05/2022;Revendedor;Boleto;Fornecedor Delta
+64;Máquina de Lavar modelo 121;Máquina de Lavar;LG;2206,79;1838,99;20;443.9;C;42.6;Centro-Oeste;E-commerce;Não;5;18;10/12/2023;Consumidor Final;Cartão;Distribuidora Beta
+65;Máquina de Lavar modelo 640;Máquina de Lavar;Consul;1875,65;1442,81;30;52.52;B;91.49;Norte;E-commerce;Sim;2;12;14/05/2023;Consumidor Final;PIX;Fornecedor Delta
+66;Secadora modelo 155;Secadora;LG;1517,08;1185,22;28;226.88;B;16.42;Nordeste;E-commerce;Sim;5;36;04/04/2022;Revendedor;Cartão;Fornecedor Delta
+67;Secadora modelo 372;Secadora;Samsung;602,2;547,45;10;151.08;D;90.53;Centro-Oeste;Loja Física;Não;2;36;17/01/2023;Revendedor;PIX;Distribuidora Epsilon
+68;Secadora modelo 149;Secadora;Consul;1466,01;1145,32;28;304.85;B;5.95;Nordeste;E-commerce;Não;2;36;17/12/2023;Revendedor;Boleto;Distribuidora Alfa
+69;Geladeira modelo 653;Geladeira;Brastemp;372,93;313,39;19;304.48;A;96.42;Sudeste;Loja Física;Sim;5;24;24/01/2023;Consumidor Final;Dinheiro;Fornecedora Gamma
+70;Máquina de Lavar modelo 143;Máquina de Lavar;Brastemp;1862,05;1526,27;22;263.92;D;11.98;Nordeste;E-commerce;Não;4;36;13/06/2023;Revendedor;PIX;Distribuidora Epsilon
+71;Secadora modelo 916;Secadora;Electrolux;703,28;545,18;29;464.82;B;28.87;Nordeste;E-commerce;Sim;3;36;07/11/2022;Consumidor Final;PIX;Distribuidora Beta
+72;Geladeira modelo 224;Geladeira;Philco;937,59;794,57;18;341.73;D;11.87;Norte;E-commerce;Não;4;18;24/06/2022;Consumidor Final;Dinheiro;Distribuidora Alfa
+73;Máquina de Lavar modelo 787;Máquina de Lavar;Electrolux;1362,2;1047,85;30;171.04;D;67.72;Centro-Oeste;Loja Física;Sim;2;36;21/11/2022;Consumidor Final;Cartão;Fornecedor Delta
+74;Micro-ondas modelo 912;Micro-ondas;LG;1628,56;1100,38;48;85.37;D;27.36;Nordeste;Loja Física;Sim;1;36;25/10/2022;Revendedor;Cartão;Fornecedor Delta
+75;Máquina de Lavar modelo 819;Máquina de Lavar;LG;1400,72;1120,58;25;428.64;D;25.18;Nordeste;E-commerce;Não;5;24;16/06/2022;Revendedor;PIX;Distribuidora Alfa
+76;Micro-ondas modelo 282;Micro-ondas;Philco;1577,75;1118,97;41;412.62;D;75.29;Centro-Oeste;Loja Física;Não;4;36;23/04/2023;Consumidor Final;PIX;Fornecedor Delta
+77;Fogão modelo 512;Fogão;Consul;1650,57;1387,03;19;56.17;D;92.04;Sul;Loja Física;Não;4;12;07/10/2023;Revendedor;Boleto;Distribuidora Alfa
+78;Micro-ondas modelo 518;Micro-ondas;Consul;561;434,88;29;77.78;B;52.47;Sul;Loja Física;Sim;1;12;16/09/2023;Consumidor Final;Dinheiro;Distribuidora Epsilon
+79;Micro-ondas modelo 648;Micro-ondas;Consul;1227,64;1067,51;15;388.58;C;63.1;Centro-Oeste;E-commerce;Sim;5;36;05/07/2023;Consumidor Final;Boleto;Fornecedor Delta
+80;Secadora modelo 465;Secadora;Whirlpool;1847,2;1578,80;17;359.77;D;76.88;Nordeste;Loja Física;Sim;5;36;05/05/2023;Consumidor Final;Dinheiro;Distribuidora Beta
+81;Geladeira modelo 200;Geladeira;Philco;2269,94;1544,18;47;366.18;A;75.93;Centro-Oeste;Loja Física;Sim;5;18;15/09/2022;Consumidor Final;Dinheiro;Distribuidora Alfa
+82;Geladeira modelo 575;Geladeira;LG;1702,65;1362,12;25;50.7;D;21.37;Sul;Loja Física;Sim;3;18;30/11/2023;Consumidor Final;Boleto;Distribuidora Alfa
+83;Micro-ondas modelo 548;Micro-ondas;LG;2106,98;1727,03;22;78.07;A;42.69;Centro-Oeste;E-commerce;Não;1;24;21/04/2022;Consumidor Final;PIX;Distribuidora Alfa
+84;Micro-ondas modelo 156;Micro-ondas;Consul;994,68;842,95;18;86.44;B;19.86;Centro-Oeste;E-commerce;Não;2;12;12/02/2023;Consumidor Final;Cartão;Distribuidora Alfa
+85;Micro-ondas modelo 282;Micro-ondas;Philco;2207,83;1698,33;30;452.96;C;46.69;Norte;Loja Física;Não;2;36;09/05/2022;Consumidor Final;Cartão;Distribuidora Beta
+86;Geladeira modelo 523;Geladeira;Electrolux;469,39;361,07;30;75.82;B;34.24;Sudeste;E-commerce;Sim;4;18;05/07/2022;Consumidor Final;Boleto;Distribuidora Beta
+87;Secadora modelo 498;Secadora;Whirlpool;2708,12;1829,81;48;388.8;D;61.54;Sudeste;Loja Física;Não;3;18;29/03/2022;Revendedor;PIX;Fornecedor Delta
+88;Geladeira modelo 397;Geladeira;Whirlpool;937,07;641,83;46;182.66;A;58.27;Sudeste;E-commerce;Não;2;24;19/07/2022;Revendedor;Cartão;Distribuidora Beta
+89;Micro-ondas modelo 579;Micro-ondas;Philco;2258,64;1724,15;31;414.46;D;85.86;Sudeste;E-commerce;Sim;3;18;06/04/2023;Consumidor Final;Boleto;Distribuidora Beta
+90;Fogão modelo 366;Fogão;Samsung;1593,21;1171,48;36;53.33;B;42.38;Sul;E-commerce;Não;2;12;10/12/2022;Consumidor Final;Boleto;Fornecedor Delta
+91;Ar Condicionado modelo 151;Ar Condicionado;Brastemp;1203,18;904,65;33;136.55;B;86.4;Sudeste;Loja Física;Não;4;12;10/07/2022;Revendedor;Cartão;Distribuidora Epsilon
+92;Micro-ondas modelo 663;Micro-ondas;Electrolux;1903,61;1442,13;32;209.77;C;12.25;Centro-Oeste;Loja Física;Sim;2;12;18/03/2022;Revendedor;Boleto;Fornecedora Gamma
+93;Micro-ondas modelo 773;Micro-ondas;LG;1040,11;782,04;33;478.38;D;83.43;Sudeste;Loja Física;Não;3;12;24/04/2022;Consumidor Final;Cartão;Distribuidora Alfa
+94;Fogão modelo 131;Fogão;Electrolux;1380,04;1179,52;17;202.86;A;40.55;Sul;Loja Física;Sim;2;36;29/08/2022;Revendedor;Cartão;Distribuidora Alfa
+95;Fogão modelo 367;Fogão;Whirlpool;1885,8;1558,51;21;312.67;A;24.59;Sul;Loja Física;Sim;1;24;10/05/2022;Consumidor Final;PIX;Fornecedora Gamma
+96;Ar Condicionado modelo 582;Ar Condicionado;Philco;1897,16;1493,83;27;398.66;C;29.12;Centro-Oeste;Loja Física;Não;3;18;29/06/2023;Revendedor;Boleto;Distribuidora Beta
+97;Geladeira modelo 870;Geladeira;Samsung;835,04;596,46;40;379.22;A;22.87;Sudeste;Loja Física;Sim;2;12;03/04/2022;Consumidor Final;PIX;Distribuidora Alfa
+98;Secadora modelo 258;Secadora;Electrolux;2168,3;1465,07;48;417.34;C;26.05;Norte;E-commerce;Sim;3;12;24/12/2022;Revendedor;Boleto;Fornecedor Delta
+99;Micro-ondas modelo 676;Micro-ondas;LG;1599,66;1118,64;43;123.86;A;95.9;Norte;E-commerce;Não;3;12;15/12/2023;Consumidor Final;Boleto;Fornecedor Delta
+100;Secadora modelo 953;Secadora;Philco;1779,15;1389,96;28;233.68;D;18.43;Nordeste;Loja Física;Sim;4;24;18/04/2023;Revendedor;Dinheiro;Distribuidora Epsilon
+101;Fogão modelo 243;Fogão;LG;525,76;383,77;37;407.85;B;8.19;Centro-Oeste;E-commerce;Sim;4;24;11/04/2023;Consumidor Final;Cartão;Fornecedora Gamma
+102;Fogão modelo 618;Fogão;Samsung;1761,12;1223,00;44;396.87;C;14.85;Norte;Loja Física;Não;5;36;23/05/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+103;Fogão modelo 627;Fogão;Electrolux;2301,74;1826,78;26;347.55;A;7.54;Norte;E-commerce;Sim;3;36;02/10/2022;Consumidor Final;Cartão;Fornecedor Delta
+104;Geladeira modelo 882;Geladeira;Philco;1672,46;1145,52;46;197.9;A;62.72;Sudeste;Loja Física;Não;4;12;12/07/2023;Revendedor;Dinheiro;Distribuidora Beta
+105;Ar Condicionado modelo 880;Ar Condicionado;Whirlpool;503,47;370,20;36;253.43;B;92.46;Norte;E-commerce;Sim;3;24;16/06/2023;Consumidor Final;Cartão;Fornecedora Gamma
+106;Ar Condicionado modelo 634;Ar Condicionado;Electrolux;1746,48;1397,18;25;140.49;C;53.03;Nordeste;Loja Física;Não;4;24;19/06/2022;Consumidor Final;Cartão;Fornecedora Gamma
+107;Geladeira modelo 237;Geladeira;LG;905,1;628,54;44;289.86;D;43.89;Centro-Oeste;E-commerce;Sim;3;36;06/04/2022;Consumidor Final;PIX;Fornecedora Gamma
+108;Ar Condicionado modelo 381;Ar Condicionado;LG;958,51;785,66;22;134.17;C;39.0;Norte;Loja Física;Não;2;36;04/07/2022;Consumidor Final;Boleto;Fornecedor Delta
+109;Geladeira modelo 373;Geladeira;Samsung;851,12;654,71;30;152.78;A;21.6;Norte;Loja Física;Sim;5;18;04/02/2023;Consumidor Final;PIX;Distribuidora Beta
+110;Geladeira modelo 666;Geladeira;Philco;1403,69;1220,60;15;480.12;B;96.19;Sudeste;E-commerce;Sim;5;36;10/08/2023;Revendedor;Cartão;Distribuidora Alfa
+111;Secadora modelo 713;Secadora;Whirlpool;353,62;282,90;25;270.22;D;31.06;Norte;Loja Física;Não;3;24;27/09/2023;Consumidor Final;Dinheiro;Fornecedor Delta
+112;Geladeira modelo 629;Geladeira;Whirlpool;1075,38;802,52;34;202.43;A;95.43;Nordeste;E-commerce;Sim;2;12;21/10/2022;Consumidor Final;PIX;Distribuidora Epsilon
+113;Secadora modelo 786;Secadora;Philco;2643,14;1972,49;34;423.67;B;29.61;Sudeste;E-commerce;Sim;3;18;31/10/2023;Revendedor;PIX;Fornecedor Delta
+114;Ar Condicionado modelo 841;Ar Condicionado;Electrolux;254,02;201,60;26;196.45;A;41.86;Centro-Oeste;Loja Física;Não;5;12;19/02/2022;Revendedor;Dinheiro;Distribuidora Beta
+115;Ar Condicionado modelo 594;Ar Condicionado;Samsung;994,51;720,66;38;366.48;A;82.24;Sudeste;E-commerce;Não;1;24;04/12/2022;Consumidor Final;Dinheiro;Fornecedor Delta
+116;Ar Condicionado modelo 885;Ar Condicionado;Philco;1795,27;1424,82;26;411.5;B;52.67;Nordeste;Loja Física;Sim;5;12;24/01/2022;Revendedor;PIX;Distribuidora Alfa
+117;Fogão modelo 821;Fogão;Samsung;305,03;252,09;21;101.81;D;94.83;Norte;E-commerce;Não;5;24;07/05/2023;Consumidor Final;Dinheiro;Fornecedora Gamma
+118;Ar Condicionado modelo 141;Ar Condicionado;Samsung;2096,12;1650,49;27;389.5;D;72.21;Sul;Loja Física;Sim;4;24;28/09/2022;Revendedor;Dinheiro;Fornecedor Delta
+119;Micro-ondas modelo 685;Micro-ondas;Samsung;423,72;371,68;14;404.82;A;26.16;Centro-Oeste;Loja Física;Não;3;12;22/02/2022;Consumidor Final;PIX;Fornecedor Delta
+120;Fogão modelo 337;Fogão;LG;1550,43;1281,35;21;246.59;B;74.44;Centro-Oeste;E-commerce;Não;4;24;28/05/2022;Revendedor;Boleto;Fornecedora Gamma
+121;Máquina de Lavar modelo 883;Máquina de Lavar;Whirlpool;977,24;698,03;40;61.6;B;31.57;Centro-Oeste;Loja Física;Sim;5;24;27/05/2022;Revendedor;Dinheiro;Distribuidora Alfa
+122;Secadora modelo 878;Secadora;Brastemp;2021,65;1821,31;11;111.28;B;6.24;Norte;E-commerce;Sim;4;18;01/12/2023;Revendedor;Dinheiro;Distribuidora Epsilon
+123;Geladeira modelo 603;Geladeira;Brastemp;1340,64;1197,00;12;77.33;A;56.39;Centro-Oeste;Loja Física;Sim;4;12;03/10/2023;Consumidor Final;PIX;Distribuidora Alfa
+124;Secadora modelo 399;Secadora;Electrolux;2147,82;1627,14;32;221.84;C;28.23;Nordeste;Loja Física;Sim;1;24;24/07/2023;Revendedor;PIX;Fornecedora Gamma
+125;Fogão modelo 609;Fogão;Samsung;2074,54;1803,95;15;407.57;D;50.7;Sudeste;Loja Física;Não;5;24;29/12/2022;Consumidor Final;PIX;Distribuidora Beta
+126;Secadora modelo 895;Secadora;Philco;418,48;284,68;47;307.02;D;56.45;Norte;Loja Física;Sim;2;36;19/11/2023;Consumidor Final;PIX;Distribuidora Beta
+127;Máquina de Lavar modelo 668;Máquina de Lavar;Electrolux;1665,22;1271,16;31;283.26;A;95.64;Norte;E-commerce;Não;2;24;03/10/2023;Consumidor Final;PIX;Distribuidora Beta
+128;Fogão modelo 926;Fogão;Samsung;2714,27;1911,46;42;381.67;D;20.28;Sudeste;Loja Física;Não;2;36;24/05/2023;Revendedor;Boleto;Fornecedora Gamma
+129;Geladeira modelo 852;Geladeira;LG;660,81;475,40;39;303.95;D;97.9;Sudeste;Loja Física;Sim;5;24;06/08/2022;Revendedor;Dinheiro;Distribuidora Alfa
+130;Micro-ondas modelo 299;Micro-ondas;Samsung;1268,77;932,92;36;242.51;C;80.85;Nordeste;Loja Física;Não;3;24;09/05/2022;Consumidor Final;Boleto;Fornecedor Delta
+131;Fogão modelo 713;Fogão;Brastemp;583,95;521,38;12;130.35;C;82.46;Nordeste;Loja Física;Não;4;12;13/11/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+132;Secadora modelo 819;Secadora;Consul;2212,17;1975,15;12;488.38;C;36.17;Norte;Loja Física;Não;2;24;10/02/2023;Consumidor Final;Boleto;Distribuidora Alfa
+133;Máquina de Lavar modelo 422;Máquina de Lavar;LG;2270,72;1940,79;17;433.66;C;30.83;Sudeste;E-commerce;Sim;4;36;20/09/2023;Revendedor;Dinheiro;Distribuidora Epsilon
+134;Máquina de Lavar modelo 281;Máquina de Lavar;Consul;861,17;694,49;24;77.9;C;22.46;Sudeste;E-commerce;Sim;1;18;12/08/2023;Revendedor;Boleto;Fornecedora Gamma
+135;Fogão modelo 906;Fogão;Consul;1829,37;1252,99;46;225.74;D;57.11;Norte;Loja Física;Sim;3;18;12/06/2023;Revendedor;Boleto;Distribuidora Epsilon
+136;Máquina de Lavar modelo 722;Máquina de Lavar;Brastemp;1324,24;1193,01;11;193.33;D;62.14;Sudeste;E-commerce;Não;2;12;13/03/2023;Consumidor Final;Dinheiro;Fornecedor Delta
+137;Máquina de Lavar modelo 614;Máquina de Lavar;LG;1185,62;790,41;50;83.88;B;17.13;Sudeste;Loja Física;Sim;3;36;24/10/2023;Revendedor;Boleto;Distribuidora Epsilon
+138;Fogão modelo 101;Fogão;LG;1583,19;1199,39;32;165.53;C;13.14;Nordeste;E-commerce;Não;5;36;01/08/2023;Consumidor Final;Dinheiro;Distribuidora Beta
+139;Secadora modelo 535;Secadora;Brastemp;2513,47;1963,65;28;452.96;B;5.63;Nordeste;Loja Física;Sim;4;36;23/07/2023;Revendedor;Cartão;Distribuidora Beta
+140;Máquina de Lavar modelo 317;Máquina de Lavar;Samsung;1257,04;938,09;34;427.9;C;25.99;Sudeste;Loja Física;Não;3;18;16/04/2022;Consumidor Final;PIX;Distribuidora Alfa
+141;Ar Condicionado modelo 752;Ar Condicionado;Consul;772,79;638,67;21;62.52;B;59.32;Norte;E-commerce;Não;2;18;05/10/2023;Revendedor;Boleto;Distribuidora Alfa
+142;Máquina de Lavar modelo 636;Máquina de Lavar;Whirlpool;1137,02;902,40;26;155.03;B;35.21;Sul;Loja Física;Não;4;36;22/12/2022;Consumidor Final;Cartão;Distribuidora Beta
+143;Micro-ondas modelo 473;Micro-ondas;Consul;2423;1682,64;44;414.37;D;75.19;Sudeste;Loja Física;Não;4;12;08/01/2023;Revendedor;Cartão;Distribuidora Beta
+144;Fogão modelo 386;Fogão;Samsung;1061,52;737,17;44;341.63;B;11.08;Nordeste;Loja Física;Sim;5;12;26/12/2023;Consumidor Final;Boleto;Fornecedor Delta
+145;Secadora modelo 970;Secadora;Electrolux;1204,34;1075,30;12;250.59;B;46.16;Sudeste;E-commerce;Não;5;24;06/07/2023;Revendedor;Dinheiro;Fornecedor Delta
+146;Ar Condicionado modelo 734;Ar Condicionado;LG;1504,91;1010,01;49;468.17;B;31.95;Sul;E-commerce;Sim;5;24;21/10/2022;Consumidor Final;Boleto;Fornecedor Delta
+147;Fogão modelo 591;Fogão;Samsung;1157,01;933,07;24;144.48;B;99.34;Nordeste;E-commerce;Não;4;12;02/11/2023;Consumidor Final;Boleto;Fornecedor Delta
+148;Geladeira modelo 408;Geladeira;Electrolux;1860,35;1464,84;27;361.97;A;83.28;Sul;E-commerce;Sim;1;12;28/06/2022;Consumidor Final;Boleto;Distribuidora Beta
+149;Máquina de Lavar modelo 712;Máquina de Lavar;Consul;2557,12;1937,21;32;235.32;D;97.62;Sudeste;Loja Física;Não;4;12;24/10/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+150;Ar Condicionado modelo 666;Ar Condicionado;Consul;743,23;657,73;13;394.84;B;18.21;Nordeste;E-commerce;Sim;2;36;03/10/2022;Revendedor;Boleto;Distribuidora Alfa
+151;Secadora modelo 188;Secadora;Electrolux;1849,97;1651,76;12;78.75;A;50.66;Norte;E-commerce;Sim;2;12;01/05/2023;Revendedor;Cartão;Fornecedor Delta
+152;Micro-ondas modelo 787;Micro-ondas;LG;1714,61;1350,09;27;428.29;A;69.26;Sul;Loja Física;Não;2;36;15/01/2023;Consumidor Final;Boleto;Distribuidora Beta
+153;Secadora modelo 939;Secadora;Samsung;1096,51;824,44;33;228.85;B;89.14;Centro-Oeste;E-commerce;Não;1;24;14/06/2023;Revendedor;Dinheiro;Distribuidora Alfa
+154;Ar Condicionado modelo 725;Ar Condicionado;Consul;2257,13;1589,53;42;207.41;B;87.41;Norte;E-commerce;Não;1;12;28/05/2023;Consumidor Final;Cartão;Fornecedora Gamma
+155;Máquina de Lavar modelo 699;Máquina de Lavar;Whirlpool;1520,03;1027,05;48;463.43;B;75.81;Sul;E-commerce;Sim;3;18;31/03/2022;Revendedor;PIX;Fornecedor Delta
+156;Micro-ondas modelo 895;Micro-ondas;Whirlpool;1663,22;1299,39;28;85.02;A;74.58;Sudeste;Loja Física;Não;5;36;29/08/2022;Revendedor;Boleto;Fornecedora Gamma
+157;Ar Condicionado modelo 602;Ar Condicionado;Brastemp;2505,28;1670,19;50;223.88;D;66.15;Nordeste;E-commerce;Sim;4;12;18/04/2022;Consumidor Final;Cartão;Distribuidora Epsilon
+158;Micro-ondas modelo 330;Micro-ondas;Electrolux;1575,75;1260,60;25;297.49;D;16.91;Sudeste;E-commerce;Não;2;24;06/03/2023;Revendedor;Dinheiro;Distribuidora Beta
+159;Máquina de Lavar modelo 107;Máquina de Lavar;Samsung;2462;1953,97;26;151.67;C;80.64;Norte;E-commerce;Sim;2;18;11/12/2022;Consumidor Final;Boleto;Distribuidora Epsilon
+160;Ar Condicionado modelo 200;Ar Condicionado;Philco;2286,71;1610,36;42;446.64;B;84.75;Centro-Oeste;Loja Física;Sim;5;24;19/02/2022;Revendedor;Cartão;Distribuidora Epsilon
+161;Geladeira modelo 676;Geladeira;LG;1908,17;1502,50;27;56.93;B;90.13;Norte;E-commerce;Não;5;36;29/11/2023;Revendedor;Boleto;Distribuidora Alfa
+162;Micro-ondas modelo 764;Micro-ondas;Electrolux;845,31;587,02;44;458.95;B;45.02;Sudeste;E-commerce;Sim;2;12;16/03/2022;Revendedor;PIX;Fornecedora Gamma
+163;Fogão modelo 182;Fogão;Brastemp;2421,22;1984,61;22;206.92;B;93.87;Sudeste;E-commerce;Sim;2;12;14/01/2022;Revendedor;Cartão;Distribuidora Beta
+164;Máquina de Lavar modelo 665;Máquina de Lavar;Philco;2552,65;1876,95;36;450.22;B;65.03;Sudeste;E-commerce;Sim;1;12;15/11/2022;Consumidor Final;Cartão;Distribuidora Alfa
+165;Fogão modelo 336;Fogão;Brastemp;1268,88;983,63;29;236.69;C;56.62;Norte;Loja Física;Sim;4;18;04/07/2023;Consumidor Final;Cartão;Fornecedor Delta
+166;Ar Condicionado modelo 197;Ar Condicionado;Electrolux;1603,18;1358,63;18;223.69;C;90.73;Nordeste;Loja Física;Não;5;24;07/07/2023;Consumidor Final;Boleto;Fornecedora Gamma
+167;Micro-ondas modelo 656;Micro-ondas;Samsung;916,96;699,97;31;289.38;A;79.02;Sul;E-commerce;Não;2;12;24/06/2022;Revendedor;Boleto;Distribuidora Alfa
+168;Máquina de Lavar modelo 230;Máquina de Lavar;Electrolux;1625,19;1343,13;21;77.43;A;72.45;Norte;E-commerce;Sim;2;12;14/02/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+169;Máquina de Lavar modelo 638;Máquina de Lavar;Consul;1803,78;1554,98;16;486.54;D;67.39;Nordeste;Loja Física;Sim;5;36;22/01/2022;Revendedor;Boleto;Fornecedora Gamma
+170;Micro-ondas modelo 752;Micro-ondas;Whirlpool;526,4;395,79;33;434.67;B;11.61;Sudeste;E-commerce;Não;3;18;12/05/2023;Consumidor Final;PIX;Distribuidora Beta
+171;Micro-ondas modelo 476;Micro-ondas;Samsung;2713,05;1897,24;43;163.75;D;29.51;Sudeste;Loja Física;Não;1;18;27/12/2022;Consumidor Final;Boleto;Distribuidora Beta
+172;Ar Condicionado modelo 247;Ar Condicionado;Electrolux;483,96;340,82;42;397.21;C;36.95;Centro-Oeste;E-commerce;Sim;5;18;10/12/2023;Consumidor Final;Dinheiro;Distribuidora Beta
+173;Secadora modelo 260;Secadora;LG;1451,75;1134,18;28;204.8;D;24.95;Centro-Oeste;Loja Física;Não;1;12;10/08/2023;Consumidor Final;Dinheiro;Fornecedor Delta
+174;Fogão modelo 539;Fogão;Philco;1497,75;1143,32;31;345.9;C;68.13;Nordeste;E-commerce;Sim;5;12;15/12/2023;Revendedor;Dinheiro;Distribuidora Alfa
+175;Fogão modelo 176;Fogão;Consul;1962,72;1443,18;36;409.41;C;64.23;Nordeste;Loja Física;Sim;1;36;18/04/2022;Revendedor;Dinheiro;Distribuidora Beta
+176;Fogão modelo 601;Fogão;Samsung;1109,59;744,69;49;132.01;A;31.3;Nordeste;Loja Física;Não;2;12;26/04/2022;Consumidor Final;Cartão;Distribuidora Epsilon
+177;Micro-ondas modelo 262;Micro-ondas;Electrolux;2614,67;1936,79;35;409.7;A;96.94;Sul;Loja Física;Não;3;24;19/04/2022;Consumidor Final;Cartão;Distribuidora Alfa
+178;Máquina de Lavar modelo 135;Máquina de Lavar;Philco;1259,6;1032,46;22;455.83;C;72.32;Centro-Oeste;Loja Física;Não;3;36;05/11/2022;Consumidor Final;Boleto;Distribuidora Beta
+179;Geladeira modelo 715;Geladeira;Samsung;810,19;698,44;16;456.23;B;23.7;Norte;Loja Física;Não;5;12;22/09/2022;Consumidor Final;PIX;Distribuidora Beta
+180;Micro-ondas modelo 517;Micro-ondas;Consul;576,54;386,94;49;497.9;C;79.02;Norte;Loja Física;Não;1;24;06/09/2022;Consumidor Final;Boleto;Distribuidora Epsilon
+181;Geladeira modelo 112;Geladeira;Samsung;1467,53;1265,11;16;178.51;D;18.94;Sudeste;E-commerce;Não;1;36;14/11/2022;Consumidor Final;PIX;Distribuidora Alfa
+182;Fogão modelo 169;Fogão;Whirlpool;1001,46;741,82;35;280.97;A;30.22;Centro-Oeste;E-commerce;Sim;2;24;12/10/2023;Consumidor Final;PIX;Fornecedora Gamma
+183;Ar Condicionado modelo 462;Ar Condicionado;Whirlpool;1178,14;927,67;27;334.42;D;73.42;Norte;E-commerce;Sim;2;12;18/04/2022;Consumidor Final;Dinheiro;Distribuidora Beta
+184;Máquina de Lavar modelo 172;Máquina de Lavar;Electrolux;318,68;284,54;12;392.36;D;28.3;Norte;E-commerce;Não;3;18;07/10/2022;Revendedor;Dinheiro;Fornecedora Gamma
+185;Máquina de Lavar modelo 803;Máquina de Lavar;Consul;1461,48;1238,54;18;105.88;B;85.96;Sul;E-commerce;Não;4;12;17/09/2022;Consumidor Final;Cartão;Distribuidora Alfa
+186;Geladeira modelo 610;Geladeira;Whirlpool;1186,85;1032,04;15;346.87;D;53.85;Sul;Loja Física;Não;5;12;25/09/2022;Revendedor;PIX;Distribuidora Beta
+187;Micro-ondas modelo 885;Micro-ondas;LG;2786,88;1935,33;44;157.03;A;11.22;Norte;E-commerce;Sim;5;36;31/10/2023;Revendedor;Cartão;Fornecedor Delta
+188;Geladeira modelo 710;Geladeira;Samsung;2420,29;1876,19;29;67.36;D;20.46;Nordeste;E-commerce;Sim;1;36;09/05/2022;Revendedor;Dinheiro;Distribuidora Alfa
+189;Fogão modelo 555;Fogão;Consul;2048,58;1506,31;36;102.63;C;53.64;Sul;E-commerce;Não;4;24;29/03/2022;Revendedor;Dinheiro;Fornecedor Delta
+190;Máquina de Lavar modelo 298;Máquina de Lavar;Philco;1279;933,58;37;391.55;A;26.28;Centro-Oeste;E-commerce;Não;3;36;18/10/2023;Revendedor;Dinheiro;Fornecedora Gamma
+191;Máquina de Lavar modelo 440;Máquina de Lavar;Consul;1034,23;789,49;31;236.25;B;38.35;Centro-Oeste;Loja Física;Sim;1;36;03/08/2022;Revendedor;Boleto;Fornecedor Delta
+192;Geladeira modelo 952;Geladeira;Electrolux;592,09;477,49;24;422.05;C;93.41;Nordeste;E-commerce;Sim;4;24;28/08/2022;Consumidor Final;Cartão;Fornecedora Gamma
+193;Secadora modelo 837;Secadora;Electrolux;1725,08;1554,13;11;187.97;B;22.2;Nordeste;Loja Física;Sim;1;18;25/08/2023;Revendedor;Dinheiro;Distribuidora Alfa
+194;Geladeira modelo 471;Geladeira;Whirlpool;1675,92;1385,06;21;376.45;D;10.35;Centro-Oeste;Loja Física;Sim;5;12;20/04/2022;Revendedor;PIX;Distribuidora Beta
+195;Ar Condicionado modelo 703;Ar Condicionado;Brastemp;2126,27;1427,03;49;210.95;C;66.34;Centro-Oeste;Loja Física;Sim;5;36;13/08/2023;Revendedor;Cartão;Distribuidora Epsilon
+196;Geladeira modelo 599;Geladeira;Brastemp;2690,47;1978,29;36;65.16;C;7.03;Centro-Oeste;Loja Física;Não;1;24;08/12/2023;Revendedor;Cartão;Fornecedor Delta
+197;Máquina de Lavar modelo 751;Máquina de Lavar;Philco;1251,43;933,90;34;78.75;D;29.58;Nordeste;E-commerce;Não;1;18;05/12/2023;Consumidor Final;PIX;Distribuidora Epsilon
+198;Fogão modelo 753;Fogão;LG;674,99;548,77;23;256.17;C;44.74;Centro-Oeste;E-commerce;Sim;1;12;10/06/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+199;Fogão modelo 230;Fogão;Electrolux;2205,75;1778,83;24;242.68;B;91.74;Sul;E-commerce;Não;3;18;21/08/2023;Consumidor Final;PIX;Fornecedor Delta
+200;Secadora modelo 364;Secadora;Samsung;864,59;584,18;48;109.94;B;52.16;Sudeste;E-commerce;Sim;3;24;08/02/2022;Consumidor Final;Dinheiro;Distribuidora Epsilon
+201;Secadora modelo 837;Secadora;Consul;697,77;562,72;24;142.33;C;34.39;Nordeste;Loja Física;Sim;2;12;31/03/2023;Revendedor;Boleto;Fornecedor Delta
+202;Ar Condicionado modelo 852;Ar Condicionado;Samsung;985,2;752,06;31;419.03;B;37.69;Norte;Loja Física;Não;3;12;16/04/2023;Revendedor;Cartão;Fornecedor Delta
+203;Máquina de Lavar modelo 626;Máquina de Lavar;LG;670,01;496,30;35;332.7;C;94.92;Sudeste;E-commerce;Sim;4;12;06/10/2023;Consumidor Final;PIX;Distribuidora Alfa
+204;Micro-ondas modelo 626;Micro-ondas;Electrolux;902,6;618,22;46;298.01;B;62.85;Sul;Loja Física;Não;4;12;25/11/2023;Consumidor Final;Cartão;Fornecedor Delta
+205;Fogão modelo 992;Fogão;Consul;1274,96;1128,28;13;168.06;D;40.22;Nordeste;E-commerce;Sim;2;24;27/04/2022;Consumidor Final;Boleto;Distribuidora Alfa
+206;Geladeira modelo 771;Geladeira;Philco;355,06;244,87;45;355.86;D;12.57;Nordeste;Loja Física;Não;2;12;07/06/2022;Consumidor Final;Boleto;Fornecedora Gamma
+207;Geladeira modelo 954;Geladeira;Philco;1806,01;1212,09;49;339.21;A;36.19;Nordeste;Loja Física;Sim;4;18;07/07/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+208;Ar Condicionado modelo 232;Ar Condicionado;Samsung;349,47;314,84;11;54.95;B;39.3;Sudeste;E-commerce;Não;5;18;21/03/2023;Consumidor Final;Dinheiro;Distribuidora Epsilon
+209;Geladeira modelo 117;Geladeira;Samsung;932,79;671,07;39;194.77;B;66.84;Sul;Loja Física;Não;2;24;15/01/2022;Revendedor;PIX;Distribuidora Alfa
+210;Ar Condicionado modelo 376;Ar Condicionado;Electrolux;492,8;373,33;32;152.75;C;48.23;Sudeste;E-commerce;Não;3;36;27/12/2022;Revendedor;Boleto;Fornecedora Gamma
+211;Micro-ondas modelo 181;Micro-ondas;LG;1401,46;1069,82;31;143.96;A;84.92;Nordeste;Loja Física;Não;1;12;07/03/2023;Consumidor Final;Dinheiro;Fornecedora Gamma
+212;Geladeira modelo 881;Geladeira;Samsung;2475,83;1781,17;39;211.05;A;11.8;Sul;Loja Física;Sim;3;24;01/08/2023;Consumidor Final;Boleto;Fornecedor Delta
+213;Secadora modelo 872;Secadora;Samsung;1012,34;733,58;38;105.87;A;80.52;Sul;E-commerce;Não;4;24;19/02/2022;Revendedor;Cartão;Distribuidora Beta
+214;Micro-ondas modelo 439;Micro-ondas;Whirlpool;2551,75;1862,59;37;238.02;B;69.68;Centro-Oeste;E-commerce;Não;4;36;07/12/2023;Revendedor;Dinheiro;Fornecedora Gamma
+215;Geladeira modelo 954;Geladeira;Consul;1199,5;1034,05;16;327.19;C;12.68;Sudeste;Loja Física;Sim;3;24;15/02/2022;Consumidor Final;Cartão;Fornecedor Delta
+216;Micro-ondas modelo 400;Micro-ondas;Philco;2679,88;1941,94;38;370.58;B;55.67;Norte;E-commerce;Sim;2;12;21/09/2023;Consumidor Final;Cartão;Distribuidora Beta
+217;Geladeira modelo 621;Geladeira;Samsung;632,92;458,64;38;305.63;D;93.36;Norte;Loja Física;Sim;2;24;01/09/2022;Revendedor;Boleto;Distribuidora Epsilon
+218;Geladeira modelo 721;Geladeira;Philco;1612,59;1151,85;40;399.85;C;78.13;Norte;Loja Física;Não;4;18;03/07/2022;Consumidor Final;Boleto;Fornecedora Gamma
+219;Fogão modelo 760;Fogão;LG;1149,8;871,06;32;142.43;D;24.77;Sul;Loja Física;Não;1;24;13/10/2023;Consumidor Final;Cartão;Distribuidora Epsilon
+220;Geladeira modelo 668;Geladeira;Brastemp;1746,79;1247,71;40;281.63;B;67.56;Norte;Loja Física;Sim;2;12;21/11/2022;Consumidor Final;Cartão;Distribuidora Beta
+221;Máquina de Lavar modelo 680;Máquina de Lavar;Electrolux;1444,58;1046,80;38;140.85;B;42.32;Centro-Oeste;Loja Física;Sim;1;18;08/01/2022;Consumidor Final;Dinheiro;Fornecedor Delta
+222;Máquina de Lavar modelo 771;Máquina de Lavar;Samsung;1725,23;1306,99;32;119.53;B;67.72;Norte;Loja Física;Não;2;18;29/01/2022;Consumidor Final;Dinheiro;Fornecedora Gamma
+223;Secadora modelo 425;Secadora;Electrolux;1184,06;1029,62;15;121.17;A;7.16;Nordeste;Loja Física;Não;2;36;22/07/2023;Revendedor;Dinheiro;Distribuidora Alfa
+224;Máquina de Lavar modelo 957;Máquina de Lavar;Philco;1928,24;1555,03;24;316.61;A;88.99;Sudeste;Loja Física;Não;3;12;01/01/2023;Consumidor Final;Boleto;Fornecedora Gamma
+225;Fogão modelo 308;Fogão;Consul;1115,33;878,21;27;324.41;C;23.51;Norte;E-commerce;Não;5;36;24/07/2023;Consumidor Final;Boleto;Fornecedora Gamma
+226;Micro-ondas modelo 187;Micro-ondas;Brastemp;1261,3;1126,16;12;486.87;C;80.89;Sul;E-commerce;Não;4;36;01/05/2023;Consumidor Final;Cartão;Distribuidora Beta
+227;Secadora modelo 391;Secadora;Whirlpool;2216,68;1878,54;18;141.88;C;60.11;Norte;E-commerce;Não;5;24;29/11/2022;Revendedor;Dinheiro;Fornecedor Delta
+228;Máquina de Lavar modelo 742;Máquina de Lavar;LG;1283,28;950,58;35;459.37;A;93.94;Norte;E-commerce;Sim;1;12;10/09/2022;Revendedor;Cartão;Distribuidora Alfa
+229;Micro-ondas modelo 615;Micro-ondas;LG;860,91;585,65;47;300.01;C;95.87;Sul;E-commerce;Sim;1;12;30/12/2022;Consumidor Final;Boleto;Distribuidora Beta
+230;Máquina de Lavar modelo 523;Máquina de Lavar;Electrolux;1211,37;946,38;28;241.87;D;90.34;Sul;E-commerce;Sim;5;18;10/07/2022;Consumidor Final;Cartão;Fornecedora Gamma
+231;Fogão modelo 728;Fogão;Whirlpool;2120,12;1452,14;46;179.0;D;99.4;Norte;Loja Física;Não;4;18;07/05/2023;Revendedor;Boleto;Distribuidora Alfa
+232;Ar Condicionado modelo 559;Ar Condicionado;Consul;1579,9;1170,30;35;271.82;D;92.48;Sul;E-commerce;Sim;5;18;28/11/2023;Revendedor;Cartão;Distribuidora Alfa
+233;Máquina de Lavar modelo 955;Máquina de Lavar;Electrolux;454,96;379,13;20;146.19;A;8.64;Sul;Loja Física;Sim;1;36;15/06/2022;Revendedor;Boleto;Distribuidora Epsilon
+234;Ar Condicionado modelo 691;Ar Condicionado;Electrolux;2115,92;1602,97;32;196.09;C;9.17;Sul;E-commerce;Não;2;12;11/02/2022;Consumidor Final;Cartão;Distribuidora Epsilon
+235;Fogão modelo 248;Fogão;Philco;2192,07;1648,17;33;186.37;C;73.6;Nordeste;E-commerce;Não;2;12;27/08/2022;Consumidor Final;Boleto;Distribuidora Epsilon
+236;Fogão modelo 826;Fogão;Consul;411,78;305,02;35;242.56;B;16.08;Norte;Loja Física;Não;5;36;13/03/2022;Consumidor Final;Boleto;Fornecedora Gamma
+237;Geladeira modelo 650;Geladeira;Electrolux;2004,42;1431,73;40;160.87;A;78.45;Norte;Loja Física;Não;4;36;13/10/2022;Revendedor;Dinheiro;Fornecedor Delta
+238;Geladeira modelo 562;Geladeira;Philco;1088,57;788,82;38;384.31;A;25.45;Norte;Loja Física;Sim;4;12;30/06/2022;Revendedor;PIX;Distribuidora Alfa
+239;Secadora modelo 489;Secadora;Brastemp;2461,4;1796,64;37;158.36;C;57.41;Sul;E-commerce;Não;4;12;06/11/2022;Revendedor;Cartão;Fornecedor Delta
+240;Secadora modelo 207;Secadora;LG;784,64;598,96;31;146.03;D;35.5;Sul;E-commerce;Sim;4;18;06/09/2023;Consumidor Final;Dinheiro;Fornecedora Gamma
+241;Fogão modelo 465;Fogão;Philco;1407,38;1144,21;23;392.18;A;78.05;Centro-Oeste;Loja Física;Sim;1;24;13/05/2022;Revendedor;Dinheiro;Distribuidora Epsilon
+242;Máquina de Lavar modelo 160;Máquina de Lavar;Brastemp;1596,09;1165,03;37;199.75;A;74.06;Norte;Loja Física;Sim;3;18;07/03/2023;Revendedor;Cartão;Distribuidora Beta
+243;Secadora modelo 962;Secadora;Brastemp;824,72;736,36;12;153.57;C;19.59;Sudeste;E-commerce;Não;5;12;15/05/2023;Revendedor;Boleto;Fornecedora Gamma
+244;Fogão modelo 587;Fogão;Consul;645,67;512,44;26;411.55;A;50.66;Centro-Oeste;Loja Física;Não;4;18;21/04/2023;Revendedor;Cartão;Distribuidora Alfa
+245;Ar Condicionado modelo 739;Ar Condicionado;Whirlpool;2344,8;1846,30;27;104.38;B;59.17;Norte;E-commerce;Não;1;12;09/09/2022;Consumidor Final;Boleto;Fornecedora Gamma
+246;Secadora modelo 529;Secadora;Brastemp;1444,2;1002,92;44;409.59;A;63.84;Nordeste;E-commerce;Sim;4;18;19/09/2023;Consumidor Final;Dinheiro;Fornecedor Delta
+247;Secadora modelo 337;Secadora;Consul;1502,88;1183,37;27;270.16;A;32.62;Sul;Loja Física;Sim;1;18;18/08/2023;Consumidor Final;PIX;Distribuidora Beta
+248;Secadora modelo 543;Secadora;LG;598,78;443,54;35;156.16;B;61.67;Sul;E-commerce;Sim;5;12;16/01/2022;Revendedor;PIX;Distribuidora Alfa
+249;Micro-ondas modelo 815;Micro-ondas;Electrolux;1481;1334,23;11;234.59;D;6.83;Sul;E-commerce;Sim;4;18;12/03/2023;Consumidor Final;Cartão;Distribuidora Alfa
+250;Ar Condicionado modelo 872;Ar Condicionado;Philco;450,21;343,67;31;96.84;B;46.92;Norte;E-commerce;Não;2;24;21/01/2022;Revendedor;Cartão;Distribuidora Alfa
+251;Máquina de Lavar modelo 763;Máquina de Lavar;Samsung;1356,15;1149,28;18;223.75;B;40.95;Nordeste;E-commerce;Não;5;12;27/03/2023;Consumidor Final;PIX;Fornecedora Gamma
+252;Secadora modelo 190;Secadora;Consul;926,09;691,11;34;360.02;C;29.56;Centro-Oeste;E-commerce;Não;1;18;15/11/2023;Consumidor Final;Boleto;Fornecedor Delta
+253;Secadora modelo 293;Secadora;Consul;1084,87;774,91;40;259.48;D;54.72;Centro-Oeste;Loja Física;Não;2;24;16/08/2023;Revendedor;PIX;Fornecedora Gamma
+254;Micro-ondas modelo 922;Micro-ondas;Whirlpool;974,93;855,20;14;128.43;B;75.47;Sudeste;Loja Física;Não;2;24;01/02/2022;Consumidor Final;Cartão;Distribuidora Beta
+255;Fogão modelo 431;Fogão;Whirlpool;912,89;742,19;23;493.83;A;7.83;Sudeste;E-commerce;Não;2;36;01/01/2023;Consumidor Final;PIX;Distribuidora Beta
+256;Micro-ondas modelo 239;Micro-ondas;Philco;417,02;369,04;13;196.74;D;80.41;Sudeste;Loja Física;Sim;2;24;05/07/2023;Revendedor;Cartão;Fornecedor Delta
+257;Fogão modelo 718;Fogão;Whirlpool;1462,7;1189,19;23;205.9;D;48.54;Centro-Oeste;Loja Física;Não;4;12;13/10/2023;Consumidor Final;Dinheiro;Distribuidora Beta
+258;Fogão modelo 263;Fogão;Consul;1102,77;958,93;15;352.84;D;89.22;Centro-Oeste;E-commerce;Sim;1;24;20/05/2022;Consumidor Final;Boleto;Distribuidora Beta
+259;Fogão modelo 383;Fogão;Brastemp;1494,66;1132,32;32;489.84;A;30.56;Centro-Oeste;E-commerce;Não;5;24;06/01/2023;Consumidor Final;PIX;Fornecedora Gamma
+260;Máquina de Lavar modelo 215;Máquina de Lavar;Samsung;2711,88;1857,45;46;154.38;A;55.05;Centro-Oeste;Loja Física;Não;5;12;28/08/2022;Consumidor Final;Cartão;Distribuidora Epsilon
+261;Secadora modelo 242;Secadora;Brastemp;942,23;812,27;16;387.75;B;30.14;Nordeste;E-commerce;Não;2;24;25/03/2022;Consumidor Final;PIX;Fornecedora Gamma
+262;Máquina de Lavar modelo 479;Máquina de Lavar;Consul;378,73;268,60;41;465.53;C;60.15;Centro-Oeste;Loja Física;Sim;1;36;01/05/2023;Revendedor;PIX;Distribuidora Alfa
+263;Ar Condicionado modelo 935;Ar Condicionado;Whirlpool;1513,52;1129,49;34;418.75;D;13.68;Sul;Loja Física;Sim;2;36;24/02/2022;Revendedor;Boleto;Fornecedora Gamma
+264;Máquina de Lavar modelo 554;Máquina de Lavar;LG;707,95;643,59;10;111.17;B;26.48;Sul;Loja Física;Não;4;36;03/05/2023;Revendedor;PIX;Distribuidora Beta
+265;Fogão modelo 715;Fogão;Brastemp;1494,02;1123,32;33;388.43;A;27.68;Nordeste;E-commerce;Sim;3;12;26/12/2022;Consumidor Final;Dinheiro;Distribuidora Beta
+266;Geladeira modelo 149;Geladeira;LG;420,17;381,97;10;267.16;C;68.21;Sul;E-commerce;Não;2;36;10/03/2023;Revendedor;Dinheiro;Distribuidora Beta
+267;Ar Condicionado modelo 640;Ar Condicionado;Whirlpool;2416,53;1655,16;46;420.79;D;37.69;Norte;E-commerce;Não;2;12;08/05/2023;Revendedor;Boleto;Fornecedora Gamma
+268;Secadora modelo 599;Secadora;Philco;2118,08;1421,53;49;239.08;A;17.42;Sudeste;Loja Física;Não;1;24;31/01/2022;Consumidor Final;PIX;Distribuidora Alfa
+269;Geladeira modelo 517;Geladeira;Philco;1230,15;1008,32;22;112.36;B;39.68;Norte;Loja Física;Não;2;24;21/07/2023;Consumidor Final;Dinheiro;Fornecedora Gamma
+270;Ar Condicionado modelo 679;Ar Condicionado;Consul;1181,9;976,78;21;441.26;A;38.71;Sul;E-commerce;Sim;5;12;24/12/2022;Consumidor Final;Cartão;Distribuidora Beta
+271;Máquina de Lavar modelo 619;Máquina de Lavar;LG;290,78;234,50;24;270.22;A;9.65;Nordeste;Loja Física;Sim;1;36;25/08/2023;Revendedor;Cartão;Distribuidora Alfa
+272;Secadora modelo 689;Secadora;Consul;1392,27;1070,98;30;134.81;A;52.79;Sudeste;E-commerce;Não;2;36;08/11/2022;Revendedor;Dinheiro;Fornecedor Delta
+273;Geladeira modelo 435;Geladeira;Electrolux;389,68;347,93;12;390.78;B;49.0;Sudeste;Loja Física;Sim;4;12;17/09/2022;Revendedor;PIX;Distribuidora Alfa
+274;Geladeira modelo 123;Geladeira;Consul;364,97;257,02;42;86.23;B;66.53;Sudeste;Loja Física;Sim;2;18;23/01/2022;Consumidor Final;Boleto;Fornecedor Delta
+275;Geladeira modelo 165;Geladeira;Philco;315,41;279,12;13;149.05;B;84.38;Sudeste;Loja Física;Não;2;12;12/10/2023;Revendedor;PIX;Distribuidora Beta
+276;Máquina de Lavar modelo 971;Máquina de Lavar;LG;1977,29;1327,04;49;311.11;A;30.42;Sul;E-commerce;Não;2;18;10/07/2023;Revendedor;Cartão;Fornecedor Delta
+277;Ar Condicionado modelo 735;Ar Condicionado;Consul;1259,71;1085,96;16;147.49;A;24.67;Norte;Loja Física;Não;3;36;26/10/2022;Revendedor;Boleto;Distribuidora Epsilon
+278;Secadora modelo 920;Secadora;Samsung;2508,7;1858,30;35;183.7;B;18.88;Norte;Loja Física;Sim;1;12;14/10/2022;Revendedor;Boleto;Distribuidora Alfa
+279;Micro-ondas modelo 367;Micro-ondas;LG;1988,38;1541,38;29;258.71;C;74.36;Centro-Oeste;Loja Física;Sim;2;36;04/06/2023;Revendedor;Cartão;Distribuidora Epsilon
+280;Geladeira modelo 687;Geladeira;Brastemp;1759,01;1172,67;50;333.08;C;83.3;Centro-Oeste;Loja Física;Sim;4;24;16/07/2023;Revendedor;Dinheiro;Fornecedor Delta
+281;Micro-ondas modelo 853;Micro-ondas;Samsung;1487,31;1077,76;38;266.54;A;7.67;Sudeste;Loja Física;Não;3;18;26/02/2022;Revendedor;PIX;Distribuidora Beta
+282;Secadora modelo 583;Secadora;Whirlpool;1095,27;977,92;12;428.99;C;83.54;Sudeste;Loja Física;Não;1;36;21/01/2022;Revendedor;PIX;Distribuidora Beta
+283;Micro-ondas modelo 805;Micro-ondas;Philco;915,75;622,96;47;404.39;D;43.57;Sul;E-commerce;Sim;5;18;13/06/2022;Consumidor Final;Dinheiro;Distribuidora Epsilon
+284;Geladeira modelo 847;Geladeira;Electrolux;968,45;807,04;20;122.82;D;84.38;Nordeste;Loja Física;Não;3;18;11/01/2023;Revendedor;Boleto;Distribuidora Beta
+285;Geladeira modelo 757;Geladeira;Samsung;2168,79;1707,71;27;356.13;B;26.01;Sul;Loja Física;Não;4;24;20/01/2023;Consumidor Final;Cartão;Fornecedora Gamma
+286;Máquina de Lavar modelo 178;Máquina de Lavar;Brastemp;1862,54;1258,47;48;426.32;A;60.09;Sul;E-commerce;Não;4;12;07/09/2023;Revendedor;Cartão;Distribuidora Alfa
+287;Micro-ondas modelo 200;Micro-ondas;LG;1328,73;977,01;36;391.8;D;46.11;Sudeste;Loja Física;Não;1;36;07/06/2022;Consumidor Final;Dinheiro;Fornecedora Gamma
+288;Secadora modelo 545;Secadora;LG;468,44;334,60;40;278.82;D;31.34;Nordeste;E-commerce;Sim;5;12;26/08/2023;Revendedor;Dinheiro;Distribuidora Alfa
+289;Micro-ondas modelo 105;Micro-ondas;Electrolux;994,09;795,27;25;135.8;B;40.13;Sul;E-commerce;Sim;5;36;04/05/2023;Revendedor;Cartão;Distribuidora Alfa
+290;Geladeira modelo 760;Geladeira;LG;643,94;480,55;34;258.25;D;90.6;Sul;E-commerce;Não;2;24;24/04/2022;Consumidor Final;Dinheiro;Fornecedor Delta
+291;Geladeira modelo 871;Geladeira;Electrolux;336,04;289,69;16;491.52;D;19.19;Norte;E-commerce;Não;3;36;11/08/2023;Consumidor Final;Cartão;Distribuidora Epsilon
+292;Secadora modelo 642;Secadora;Whirlpool;1982,17;1585,74;25;187.01;C;38.87;Norte;E-commerce;Sim;5;36;03/04/2022;Revendedor;Boleto;Distribuidora Epsilon
+293;Geladeira modelo 606;Geladeira;Electrolux;1590,54;1120,10;42;176.1;B;47.31;Centro-Oeste;E-commerce;Não;1;24;25/03/2023;Revendedor;Dinheiro;Distribuidora Beta
+294;Micro-ondas modelo 543;Micro-ondas;Philco;369,98;327,42;13;436.96;B;61.84;Centro-Oeste;Loja Física;Não;3;18;18/12/2023;Consumidor Final;Cartão;Distribuidora Beta
+295;Micro-ondas modelo 549;Micro-ondas;Samsung;929,65;709,66;31;326.87;B;33.81;Nordeste;E-commerce;Não;4;36;02/07/2023;Consumidor Final;Cartão;Fornecedor Delta
+296;Geladeira modelo 299;Geladeira;Electrolux;1938,43;1336,85;45;215.5;A;23.51;Sudeste;E-commerce;Não;5;36;07/12/2023;Revendedor;Dinheiro;Distribuidora Beta
+297;Ar Condicionado modelo 189;Ar Condicionado;Whirlpool;845,24;692,82;22;443.54;B;73.88;Sul;Loja Física;Não;5;18;05/08/2022;Revendedor;Boleto;Distribuidora Beta
+298;Secadora modelo 197;Secadora;Whirlpool;716,89;543,10;32;114.97;B;32.64;Sul;Loja Física;Sim;4;18;20/09/2022;Revendedor;Cartão;Distribuidora Beta
+299;Secadora modelo 626;Secadora;LG;2380,06;1763,01;35;400.93;D;48.91;Norte;E-commerce;Não;5;18;14/07/2022;Consumidor Final;PIX;Fornecedora Gamma
+300;Máquina de Lavar modelo 665;Máquina de Lavar;Electrolux;2498,7;1922,08;30;153.48;D;65.77;Norte;E-commerce;Não;3;24;25/10/2022;Revendedor;Cartão;Fornecedor Delta
+301;Ar Condicionado modelo 104;Ar Condicionado;LG;2361,85;1651,64;43;492.06;C;48.53;Norte;Loja Física;Sim;1;36;01/06/2023;Revendedor;Cartão;Distribuidora Alfa
+302;Secadora modelo 933;Secadora;Whirlpool;2364,88;1630,95;45;334.23;D;8.14;Nordeste;Loja Física;Sim;2;12;16/12/2022;Revendedor;Cartão;Fornecedora Gamma
+303;Micro-ondas modelo 622;Micro-ondas;Consul;1867,44;1667,36;12;322.56;A;7.27;Sudeste;Loja Física;Não;5;12;03/06/2022;Revendedor;Boleto;Distribuidora Epsilon
+304;Máquina de Lavar modelo 751;Máquina de Lavar;Whirlpool;2374,24;1899,39;25;474.83;A;5.97;Sudeste;E-commerce;Sim;3;12;22/02/2022;Consumidor Final;PIX;Fornecedor Delta
+305;Fogão modelo 460;Fogão;Electrolux;515,35;384,59;34;335.34;A;93.64;Nordeste;Loja Física;Sim;1;36;01/01/2023;Revendedor;PIX;Fornecedor Delta
+306;Fogão modelo 201;Fogão;Electrolux;376,59;274,88;37;275.21;C;17.54;Norte;E-commerce;Não;5;36;15/04/2023;Revendedor;PIX;Distribuidora Beta
+307;Fogão modelo 138;Fogão;Whirlpool;1355,41;1011,50;34;351.63;B;32.73;Sul;Loja Física;Sim;4;24;27/01/2023;Consumidor Final;Dinheiro;Distribuidora Epsilon
+308;Geladeira modelo 508;Geladeira;Samsung;797,38;582,03;37;301.02;A;70.37;Sul;Loja Física;Sim;4;12;27/11/2022;Revendedor;Boleto;Fornecedora Gamma
+309;Geladeira modelo 944;Geladeira;Brastemp;1119,78;973,72;15;420.52;D;69.89;Centro-Oeste;Loja Física;Não;4;36;18/04/2023;Consumidor Final;Cartão;Fornecedor Delta
+310;Máquina de Lavar modelo 453;Máquina de Lavar;Samsung;1821,34;1530,54;19;263.23;B;22.9;Centro-Oeste;E-commerce;Sim;4;36;12/04/2022;Consumidor Final;Dinheiro;Distribuidora Beta
+311;Ar Condicionado modelo 466;Ar Condicionado;Brastemp;901,1;677,52;33;216.95;C;23.75;Nordeste;Loja Física;Não;2;12;21/12/2023;Consumidor Final;PIX;Fornecedora Gamma
+312;Geladeira modelo 756;Geladeira;Electrolux;1362,69;1216,69;12;190.02;C;22.18;Sul;E-commerce;Não;4;36;28/04/2022;Consumidor Final;Cartão;Distribuidora Alfa
+313;Secadora modelo 391;Secadora;Consul;1193,15;852,25;40;138.79;B;40.53;Nordeste;Loja Física;Sim;2;24;20/04/2022;Revendedor;Cartão;Distribuidora Alfa
+314;Micro-ondas modelo 867;Micro-ondas;Whirlpool;1153,18;915,22;26;181.73;A;5.67;Sul;E-commerce;Sim;2;18;30/08/2022;Revendedor;Boleto;Distribuidora Beta
+315;Micro-ondas modelo 516;Micro-ondas;Consul;488,39;390,71;25;139.68;D;94.35;Norte;E-commerce;Sim;5;36;28/12/2022;Revendedor;PIX;Distribuidora Epsilon
+316;Fogão modelo 743;Fogão;Samsung;2780,85;1853,90;50;267.44;C;39.28;Norte;E-commerce;Sim;1;24;27/08/2022;Consumidor Final;Dinheiro;Distribuidora Epsilon
+317;Secadora modelo 879;Secadora;Brastemp;1263,59;1052,99;20;403.22;A;61.3;Nordeste;Loja Física;Sim;1;12;11/03/2023;Consumidor Final;Boleto;Fornecedor Delta
+318;Geladeira modelo 955;Geladeira;Whirlpool;1092,67;925,99;18;210.41;D;38.01;Centro-Oeste;E-commerce;Não;1;24;24/06/2023;Consumidor Final;Cartão;Distribuidora Beta
+319;Máquina de Lavar modelo 747;Máquina de Lavar;Consul;1607,15;1461,05;10;83.49;A;86.34;Sul;Loja Física;Não;3;36;02/04/2022;Consumidor Final;Boleto;Distribuidora Epsilon
+320;Secadora modelo 992;Secadora;Samsung;698,65;533,32;31;52.58;D;41.32;Centro-Oeste;E-commerce;Sim;1;12;17/02/2023;Consumidor Final;Boleto;Fornecedora Gamma
+321;Geladeira modelo 419;Geladeira;LG;1305,21;1061,15;23;358.61;A;48.05;Sul;Loja Física;Sim;3;24;31/05/2023;Consumidor Final;Boleto;Fornecedor Delta
+322;Ar Condicionado modelo 910;Ar Condicionado;LG;2118,03;1604,57;32;293.23;B;93.92;Sudeste;E-commerce;Sim;1;24;04/12/2022;Revendedor;Boleto;Distribuidora Alfa
+323;Máquina de Lavar modelo 634;Máquina de Lavar;Samsung;1473,42;1037,62;42;414.31;C;35.61;Norte;E-commerce;Sim;5;18;03/01/2023;Revendedor;Boleto;Fornecedor Delta
+324;Geladeira modelo 488;Geladeira;Brastemp;1787,17;1241,09;44;218.95;D;87.9;Centro-Oeste;E-commerce;Sim;1;12;22/09/2023;Revendedor;Cartão;Distribuidora Beta
+325;Secadora modelo 839;Secadora;Samsung;785,59;553,23;42;273.27;A;34.84;Norte;E-commerce;Sim;5;24;21/01/2023;Revendedor;Dinheiro;Distribuidora Beta
+326;Geladeira modelo 212;Geladeira;Electrolux;1940,64;1732,71;12;259.45;C;71.14;Sul;E-commerce;Sim;4;12;30/03/2022;Revendedor;Dinheiro;Distribuidora Epsilon
+327;Micro-ondas modelo 156;Micro-ondas;Electrolux;1630,26;1405,40;16;69.86;A;52.97;Sul;Loja Física;Sim;3;12;05/10/2023;Revendedor;Dinheiro;Fornecedor Delta
+328;Secadora modelo 631;Secadora;Brastemp;1186,98;841,83;41;136.52;B;86.76;Nordeste;Loja Física;Não;4;24;11/02/2022;Revendedor;Dinheiro;Distribuidora Beta
+329;Secadora modelo 780;Secadora;Electrolux;541,8;401,33;35;328.25;D;99.43;Sudeste;E-commerce;Sim;3;36;20/08/2022;Revendedor;Boleto;Distribuidora Alfa
+330;Máquina de Lavar modelo 783;Máquina de Lavar;LG;1198,69;1060,79;13;69.96;A;95.28;Nordeste;Loja Física;Não;1;36;26/08/2023;Consumidor Final;PIX;Distribuidora Alfa
+331;Máquina de Lavar modelo 763;Máquina de Lavar;Consul;2670,27;1880,47;42;226.22;C;68.16;Sul;E-commerce;Sim;4;12;12/03/2022;Consumidor Final;PIX;Distribuidora Epsilon
+332;Máquina de Lavar modelo 776;Máquina de Lavar;Electrolux;780,89;610,07;28;258.66;C;46.16;Nordeste;Loja Física;Sim;1;24;16/03/2023;Consumidor Final;Cartão;Distribuidora Alfa
+333;Micro-ondas modelo 857;Micro-ondas;LG;2464,11;1866,75;32;250.15;D;48.18;Centro-Oeste;Loja Física;Não;4;18;15/10/2022;Revendedor;Cartão;Fornecedor Delta
+334;Secadora modelo 816;Secadora;Whirlpool;1708,58;1170,26;46;105.67;A;56.11;Nordeste;Loja Física;Sim;4;12;03/11/2023;Consumidor Final;PIX;Fornecedora Gamma
+335;Ar Condicionado modelo 934;Ar Condicionado;Samsung;2047,72;1861,56;10;158.49;B;38.6;Nordeste;E-commerce;Não;5;24;20/12/2022;Consumidor Final;Boleto;Distribuidora Epsilon
+336;Ar Condicionado modelo 980;Ar Condicionado;Philco;1921,71;1281,14;50;395.76;D;63.18;Nordeste;Loja Física;Sim;4;24;28/10/2022;Consumidor Final;Boleto;Fornecedora Gamma
+337;Geladeira modelo 487;Geladeira;Brastemp;429,86;377,07;14;428.85;B;93.01;Nordeste;Loja Física;Não;5;24;22/04/2022;Consumidor Final;Boleto;Fornecedora Gamma
+338;Geladeira modelo 299;Geladeira;Electrolux;978,55;865,97;13;329.5;C;51.61;Centro-Oeste;E-commerce;Sim;2;18;21/01/2023;Consumidor Final;Cartão;Distribuidora Epsilon
+339;Fogão modelo 541;Fogão;Consul;254,84;225,52;13;398.88;D;75.07;Nordeste;Loja Física;Não;5;24;13/08/2023;Revendedor;Dinheiro;Distribuidora Epsilon
+340;Geladeira modelo 811;Geladeira;Electrolux;396,98;339,30;17;93.75;C;24.44;Nordeste;E-commerce;Não;4;12;13/04/2023;Revendedor;Cartão;Distribuidora Epsilon
+341;Ar Condicionado modelo 415;Ar Condicionado;Philco;2007,39;1593,17;26;55.67;A;68.65;Centro-Oeste;E-commerce;Sim;4;12;15/01/2023;Consumidor Final;Boleto;Fornecedor Delta
+342;Máquina de Lavar modelo 735;Máquina de Lavar;Consul;1589,02;1241,42;28;158.55;A;29.21;Norte;Loja Física;Sim;2;36;01/03/2022;Revendedor;Dinheiro;Distribuidora Beta
+343;Geladeira modelo 692;Geladeira;Samsung;283,06;255,01;11;452.42;D;84.95;Norte;Loja Física;Não;1;12;30/05/2022;Revendedor;PIX;Fornecedor Delta
+344;Fogão modelo 892;Fogão;Brastemp;1152,71;847,58;36;392.2;D;66.42;Centro-Oeste;E-commerce;Sim;5;24;29/03/2023;Revendedor;Boleto;Distribuidora Alfa
+345;Geladeira modelo 972;Geladeira;Electrolux;2357,99;1827,90;29;50.48;C;26.14;Norte;Loja Física;Sim;4;24;25/02/2022;Consumidor Final;Boleto;Distribuidora Alfa
+346;Máquina de Lavar modelo 530;Máquina de Lavar;Brastemp;1441,78;1022,54;41;152.66;C;16.47;Sul;Loja Física;Não;3;12;07/12/2022;Revendedor;PIX;Distribuidora Epsilon
+347;Máquina de Lavar modelo 329;Máquina de Lavar;Samsung;256,83;217,65;18;278.4;A;90.98;Norte;E-commerce;Não;4;12;01/04/2023;Consumidor Final;PIX;Distribuidora Beta
+348;Fogão modelo 563;Fogão;Whirlpool;1392,95;1071,50;30;294.19;C;29.15;Centro-Oeste;E-commerce;Não;2;12;28/03/2022;Revendedor;Dinheiro;Distribuidora Beta
+349;Ar Condicionado modelo 592;Ar Condicionado;Philco;930,34;664,53;40;180.41;A;84.08;Sudeste;E-commerce;Não;4;18;11/03/2023;Revendedor;Boleto;Fornecedora Gamma
+350;Micro-ondas modelo 147;Micro-ondas;Consul;1161,9;785,07;48;289.48;A;49.89;Sul;E-commerce;Sim;1;36;20/01/2022;Consumidor Final;PIX;Fornecedora Gamma
+351;Fogão modelo 689;Fogão;Samsung;470,76;416,60;13;95.41;B;33.2;Norte;Loja Física;Sim;5;36;07/12/2023;Revendedor;Boleto;Fornecedora Gamma
+352;Geladeira modelo 768;Geladeira;LG;2108,25;1585,15;33;486.14;C;28.14;Sudeste;E-commerce;Não;1;12;14/10/2022;Consumidor Final;Boleto;Distribuidora Epsilon
+353;Fogão modelo 530;Fogão;Samsung;2307,26;1613,47;43;408.9;C;25.67;Norte;E-commerce;Não;5;24;27/12/2022;Revendedor;Dinheiro;Fornecedor Delta
+354;Ar Condicionado modelo 619;Ar Condicionado;Philco;411,57;283,84;45;324.81;D;95.16;Sul;Loja Física;Não;5;12;22/10/2022;Revendedor;Boleto;Distribuidora Epsilon
+355;Micro-ondas modelo 101;Micro-ondas;Whirlpool;531,12;399,34;33;133.22;B;29.41;Nordeste;Loja Física;Sim;2;24;24/01/2023;Revendedor;Boleto;Fornecedor Delta
+356;Ar Condicionado modelo 706;Ar Condicionado;Consul;1389,89;951,98;46;385.34;D;22.63;Norte;Loja Física;Não;1;24;10/08/2022;Revendedor;Cartão;Distribuidora Beta
+357;Micro-ondas modelo 942;Micro-ondas;Philco;2279,29;1948,11;17;157.44;C;31.73;Centro-Oeste;E-commerce;Não;1;36;16/08/2023;Consumidor Final;PIX;Fornecedora Gamma
+358;Ar Condicionado modelo 974;Ar Condicionado;Consul;760,73;623,55;22;229.47;D;37.58;Norte;E-commerce;Sim;2;12;25/12/2022;Consumidor Final;PIX;Fornecedor Delta
+359;Secadora modelo 187;Secadora;Philco;1945,88;1452,15;34;450.25;A;60.55;Nordeste;E-commerce;Sim;2;36;15/09/2022;Revendedor;Dinheiro;Distribuidora Alfa
+360;Geladeira modelo 921;Geladeira;Whirlpool;1435,69;976,66;47;209.43;B;17.18;Centro-Oeste;Loja Física;Não;1;36;23/09/2022;Consumidor Final;Dinheiro;Fornecedor Delta
+361;Ar Condicionado modelo 132;Ar Condicionado;Consul;1629,27;1147,37;42;77.2;B;92.1;Norte;E-commerce;Sim;3;18;30/05/2022;Consumidor Final;Dinheiro;Fornecedora Gamma
+362;Micro-ondas modelo 145;Micro-ondas;Brastemp;1335,85;1122,56;19;319.15;B;10.38;Centro-Oeste;E-commerce;Não;2;24;01/07/2023;Consumidor Final;Cartão;Fornecedor Delta
+363;Secadora modelo 102;Secadora;Consul;1879,27;1361,79;38;60.28;C;68.56;Centro-Oeste;E-commerce;Sim;4;36;04/02/2023;Revendedor;Cartão;Fornecedora Gamma
+364;Secadora modelo 167;Secadora;Samsung;816,05;728,62;12;379.98;B;57.08;Sudeste;E-commerce;Não;4;18;20/09/2023;Revendedor;Boleto;Distribuidora Epsilon
+365;Máquina de Lavar modelo 960;Máquina de Lavar;Whirlpool;1542,3;1117,61;38;192.27;B;73.46;Sudeste;E-commerce;Não;2;18;04/06/2022;Consumidor Final;Dinheiro;Distribuidora Beta
+366;Micro-ondas modelo 679;Micro-ondas;LG;2073,29;1851,15;12;138.36;B;11.96;Sudeste;E-commerce;Sim;3;18;28/06/2022;Consumidor Final;Dinheiro;Distribuidora Epsilon
+367;Micro-ondas modelo 553;Micro-ondas;Samsung;1666,24;1216,23;37;315.64;C;18.38;Norte;E-commerce;Não;2;36;23/12/2022;Consumidor Final;PIX;Fornecedora Gamma
+368;Geladeira modelo 218;Geladeira;Brastemp;2748,27;1991,50;38;167.43;C;84.94;Norte;Loja Física;Sim;3;36;16/04/2023;Revendedor;Dinheiro;Distribuidora Alfa
+369;Micro-ondas modelo 794;Micro-ondas;Electrolux;250,44;227,67;10;448.63;C;97.94;Sudeste;E-commerce;Não;4;18;30/04/2022;Revendedor;Cartão;Fornecedora Gamma
+370;Geladeira modelo 410;Geladeira;LG;1602,79;1405,96;14;290.44;C;15.52;Nordeste;Loja Física;Sim;3;36;06/02/2022;Consumidor Final;Boleto;Fornecedor Delta
+371;Secadora modelo 147;Secadora;Consul;933,03;647,94;44;127.66;A;81.05;Sudeste;E-commerce;Não;5;18;19/03/2023;Revendedor;Dinheiro;Fornecedor Delta
+372;Geladeira modelo 559;Geladeira;Philco;1413,92;1262,43;12;439.64;C;54.14;Nordeste;E-commerce;Sim;1;18;16/02/2022;Revendedor;Dinheiro;Fornecedora Gamma
+373;Micro-ondas modelo 917;Micro-ondas;Whirlpool;2918,94;1972,26;48;168.24;A;89.97;Centro-Oeste;Loja Física;Sim;4;36;04/08/2022;Revendedor;PIX;Distribuidora Alfa
+374;Fogão modelo 923;Fogão;Consul;2051,59;1681,63;22;167.85;B;45.84;Norte;E-commerce;Sim;2;18;16/08/2022;Consumidor Final;Cartão;Fornecedora Gamma
+375;Máquina de Lavar modelo 375;Máquina de Lavar;Samsung;1423,97;1009,91;41;335.03;A;39.85;Sul;Loja Física;Sim;3;36;09/10/2022;Revendedor;Cartão;Distribuidora Epsilon
+376;Fogão modelo 695;Fogão;Brastemp;943,65;754,92;25;113.94;B;32.89;Sudeste;E-commerce;Sim;3;18;13/12/2023;Revendedor;Boleto;Distribuidora Epsilon
+377;Fogão modelo 840;Fogão;Electrolux;1503,74;1222,55;23;166.87;C;74.42;Centro-Oeste;E-commerce;Sim;3;36;11/05/2022;Consumidor Final;PIX;Fornecedor Delta
+378;Secadora modelo 146;Secadora;Philco;1673,61;1481,07;13;350.68;B;99.24;Centro-Oeste;Loja Física;Não;1;18;24/02/2023;Revendedor;Cartão;Fornecedor Delta
+379;Micro-ondas modelo 619;Micro-ondas;Whirlpool;2477,91;1757,38;41;343.37;A;21.29;Centro-Oeste;E-commerce;Não;2;18;07/03/2023;Consumidor Final;Dinheiro;Distribuidora Alfa
+380;Secadora modelo 846;Secadora;LG;992,52;735,20;35;90.04;A;51.4;Centro-Oeste;Loja Física;Não;3;12;28/12/2023;Consumidor Final;Boleto;Fornecedor Delta
+381;Máquina de Lavar modelo 309;Máquina de Lavar;LG;382,51;275,19;39;151.93;C;75.23;Nordeste;E-commerce;Sim;4;36;18/01/2022;Revendedor;Dinheiro;Distribuidora Epsilon
+382;Máquina de Lavar modelo 738;Máquina de Lavar;Philco;1763,67;1175,78;50;110.51;A;56.04;Norte;E-commerce;Sim;2;18;02/07/2022;Consumidor Final;PIX;Distribuidora Epsilon
+383;Fogão modelo 689;Fogão;Samsung;802,02;662,83;21;162.45;C;81.47;Norte;E-commerce;Não;4;36;14/12/2023;Consumidor Final;PIX;Distribuidora Alfa
+384;Geladeira modelo 410;Geladeira;Brastemp;730,85;545,41;34;297.89;D;93.53;Sudeste;E-commerce;Não;2;36;05/06/2022;Consumidor Final;Boleto;Distribuidora Beta
+385;Máquina de Lavar modelo 447;Máquina de Lavar;Electrolux;306,03;225,02;36;455.34;C;76.46;Sul;E-commerce;Não;3;12;11/06/2023;Revendedor;Dinheiro;Fornecedor Delta
+386;Fogão modelo 940;Fogão;Whirlpool;2605,38;1760,39;48;89.08;C;10.87;Nordeste;Loja Física;Não;1;24;25/06/2022;Revendedor;PIX;Distribuidora Epsilon
+387;Geladeira modelo 371;Geladeira;LG;1976,77;1594,17;24;112.98;B;29.36;Nordeste;Loja Física;Sim;2;12;13/11/2023;Revendedor;Dinheiro;Distribuidora Epsilon
+388;Fogão modelo 311;Fogão;Whirlpool;2445,79;1785,25;37;157.03;C;59.86;Norte;E-commerce;Sim;2;18;10/11/2022;Revendedor;Boleto;Distribuidora Alfa
+389;Secadora modelo 692;Secadora;Samsung;2448,89;1700,62;44;355.47;A;97.69;Sul;E-commerce;Sim;1;18;31/05/2022;Consumidor Final;Dinheiro;Distribuidora Epsilon
+390;Ar Condicionado modelo 963;Ar Condicionado;Whirlpool;562,39;502,13;12;309.7;B;77.78;Centro-Oeste;E-commerce;Não;3;18;22/04/2022;Revendedor;PIX;Distribuidora Epsilon
+391;Geladeira modelo 490;Geladeira;Electrolux;1914,82;1302,60;47;63.75;C;58.35;Nordeste;Loja Física;Sim;2;12;28/04/2022;Consumidor Final;Dinheiro;Fornecedor Delta
+392;Fogão modelo 492;Fogão;Whirlpool;1327,26;1028,88;29;391.94;C;17.06;Norte;Loja Física;Sim;1;12;18/11/2023;Consumidor Final;Cartão;Fornecedora Gamma
+393;Máquina de Lavar modelo 531;Máquina de Lavar;Electrolux;2327,16;1955,60;19;455.62;D;43.16;Sul;E-commerce;Não;3;24;23/01/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+394;Micro-ondas modelo 549;Micro-ondas;Consul;1292,31;971,66;33;427.94;B;75.13;Centro-Oeste;Loja Física;Sim;3;18;03/05/2022;Revendedor;PIX;Fornecedor Delta
+395;Secadora modelo 746;Secadora;Consul;642,78;518,37;24;65.16;B;60.03;Sudeste;Loja Física;Sim;2;18;18/09/2022;Revendedor;PIX;Distribuidora Epsilon
+396;Máquina de Lavar modelo 807;Máquina de Lavar;Consul;713,86;626,19;14;354.94;D;69.41;Sudeste;Loja Física;Sim;4;36;19/11/2023;Consumidor Final;Boleto;Fornecedor Delta
+397;Geladeira modelo 783;Geladeira;Philco;1006,7;768,47;31;344.2;C;26.91;Sul;Loja Física;Sim;5;36;25/11/2022;Consumidor Final;Dinheiro;Fornecedora Gamma
+398;Fogão modelo 668;Fogão;Brastemp;1901,81;1497,49;27;376.06;A;27.82;Sudeste;E-commerce;Sim;4;18;21/11/2023;Consumidor Final;Dinheiro;Fornecedora Gamma
+399;Geladeira modelo 583;Geladeira;LG;1414,06;1017,31;39;64.04;C;63.02;Nordeste;E-commerce;Sim;5;36;08/03/2022;Consumidor Final;Dinheiro;Distribuidora Alfa
+400;Máquina de Lavar modelo 347;Máquina de Lavar;Consul;941,86;753,49;25;290.24;C;13.75;Sul;Loja Física;Sim;3;18;09/11/2023;Consumidor Final;Dinheiro;Distribuidora Epsilon
+401;Secadora modelo 706;Secadora;LG;2229,59;1627,44;37;178.39;B;65.29;Norte;E-commerce;Sim;4;12;12/05/2022;Revendedor;Cartão;Fornecedora Gamma
+402;Geladeira modelo 765;Geladeira;Electrolux;1947,54;1298,36;50;89.32;D;15.66;Norte;Loja Física;Sim;1;12;29/12/2023;Consumidor Final;Cartão;Distribuidora Beta
+403;Fogão modelo 469;Fogão;Samsung;1834,99;1231,54;49;429.21;A;10.89;Sul;E-commerce;Sim;2;18;09/03/2023;Consumidor Final;Boleto;Distribuidora Alfa
+404;Máquina de Lavar modelo 842;Máquina de Lavar;Brastemp;2085,47;1616,64;29;212.96;C;17.04;Sudeste;Loja Física;Não;4;24;22/10/2023;Consumidor Final;Boleto;Fornecedora Gamma
+405;Geladeira modelo 868;Geladeira;Brastemp;1561,23;1345,89;16;348.91;C;40.1;Sul;Loja Física;Não;2;12;28/11/2022;Consumidor Final;PIX;Fornecedor Delta
+406;Máquina de Lavar modelo 353;Máquina de Lavar;Consul;1176,51;898,10;31;319.14;C;60.13;Centro-Oeste;E-commerce;Não;1;18;04/08/2023;Revendedor;Dinheiro;Distribuidora Epsilon
+407;Máquina de Lavar modelo 124;Máquina de Lavar;Samsung;2093,99;1688,70;24;203.87;A;23.36;Norte;E-commerce;Não;4;24;26/10/2023;Consumidor Final;Boleto;Distribuidora Alfa
+408;Micro-ondas modelo 669;Micro-ondas;Brastemp;990,26;767,64;29;322.81;B;92.65;Nordeste;Loja Física;Não;5;36;23/01/2022;Revendedor;Boleto;Fornecedor Delta
+409;Máquina de Lavar modelo 875;Máquina de Lavar;LG;1101,83;739,48;49;426.96;D;35.66;Sul;Loja Física;Sim;3;24;17/02/2023;Consumidor Final;Cartão;Distribuidora Alfa
+410;Ar Condicionado modelo 323;Ar Condicionado;Brastemp;950,55;720,11;32;142.83;D;83.49;Nordeste;E-commerce;Sim;3;18;09/08/2023;Revendedor;PIX;Distribuidora Alfa
+411;Ar Condicionado modelo 552;Ar Condicionado;Samsung;2273,74;1848,57;23;169.43;D;84.05;Nordeste;E-commerce;Não;1;24;13/12/2022;Revendedor;Boleto;Fornecedor Delta
+412;Geladeira modelo 233;Geladeira;Brastemp;2278,34;1930,80;18;334.4;A;50.31;Sul;E-commerce;Sim;5;12;04/09/2023;Consumidor Final;PIX;Fornecedor Delta
+413;Máquina de Lavar modelo 607;Máquina de Lavar;LG;1636,64;1461,29;12;103.95;B;39.23;Sudeste;E-commerce;Não;4;36;08/10/2022;Revendedor;PIX;Fornecedora Gamma
+414;Geladeira modelo 107;Geladeira;LG;1174,96;979,13;20;373.84;B;71.76;Nordeste;E-commerce;Sim;3;36;23/10/2022;Consumidor Final;Cartão;Distribuidora Beta
+415;Ar Condicionado modelo 691;Ar Condicionado;Consul;2557;1880,15;36;397.68;B;65.61;Sudeste;E-commerce;Não;3;12;10/08/2022;Revendedor;Dinheiro;Fornecedora Gamma
+416;Fogão modelo 648;Fogão;Consul;2545,86;1792,86;42;190.0;A;7.01;Sul;Loja Física;Não;3;12;05/02/2022;Consumidor Final;PIX;Fornecedor Delta
+417;Ar Condicionado modelo 663;Ar Condicionado;Whirlpool;1498,85;1362,59;10;132.46;D;69.58;Norte;E-commerce;Sim;1;36;31/05/2023;Consumidor Final;PIX;Fornecedora Gamma
+418;Geladeira modelo 825;Geladeira;Samsung;995,08;710,77;40;148.99;C;93.66;Centro-Oeste;E-commerce;Sim;1;18;24/06/2022;Consumidor Final;Dinheiro;Distribuidora Alfa
+419;Geladeira modelo 391;Geladeira;Whirlpool;860,87;761,83;13;265.54;A;26.18;Sudeste;E-commerce;Não;1;12;12/04/2022;Consumidor Final;Boleto;Fornecedor Delta
+420;Secadora modelo 345;Secadora;Whirlpool;1499,81;1144,89;31;476.47;B;41.66;Sudeste;Loja Física;Não;4;36;15/08/2022;Consumidor Final;PIX;Distribuidora Epsilon
+421;Micro-ondas modelo 317;Micro-ondas;LG;592,92;439,20;35;290.99;C;30.84;Nordeste;Loja Física;Sim;2;18;05/01/2023;Consumidor Final;PIX;Distribuidora Beta
+422;Micro-ondas modelo 504;Micro-ondas;Samsung;446;316,31;41;438.57;A;77.55;Centro-Oeste;Loja Física;Não;2;24;03/02/2022;Revendedor;Cartão;Distribuidora Alfa
+423;Geladeira modelo 303;Geladeira;Electrolux;774,35;604,96;28;226.31;C;21.72;Norte;Loja Física;Não;3;12;22/02/2023;Consumidor Final;Dinheiro;Distribuidora Alfa
+424;Geladeira modelo 247;Geladeira;Consul;1139,35;808,05;41;76.25;A;5.31;Norte;Loja Física;Sim;3;24;18/01/2023;Revendedor;Cartão;Distribuidora Beta
+425;Fogão modelo 472;Fogão;LG;1278,61;1031,14;24;388.73;C;99.07;Sul;Loja Física;Não;3;18;08/09/2022;Revendedor;Dinheiro;Distribuidora Alfa
+426;Ar Condicionado modelo 946;Ar Condicionado;Samsung;1388,07;1028,20;35;147.46;A;18.63;Sudeste;Loja Física;Sim;3;24;22/01/2022;Consumidor Final;Cartão;Distribuidora Beta
+427;Micro-ondas modelo 787;Micro-ondas;Consul;1443,09;968,52;49;461.88;D;67.9;Sul;E-commerce;Sim;3;12;10/06/2023;Consumidor Final;Cartão;Distribuidora Beta
+428;Geladeira modelo 770;Geladeira;Brastemp;2436,33;1996,99;22;151.79;B;43.99;Centro-Oeste;Loja Física;Sim;2;24;23/02/2023;Revendedor;PIX;Fornecedora Gamma
+429;Secadora modelo 303;Secadora;LG;787,24;640,03;23;303.22;B;76.37;Sul;E-commerce;Não;4;18;12/05/2023;Consumidor Final;Boleto;Distribuidora Alfa
+430;Máquina de Lavar modelo 636;Máquina de Lavar;Samsung;1015,53;769,34;32;214.36;D;99.06;Sudeste;E-commerce;Não;4;12;29/01/2023;Consumidor Final;Dinheiro;Distribuidora Alfa
+431;Ar Condicionado modelo 878;Ar Condicionado;Electrolux;672,12;560,10;20;482.65;C;20.46;Centro-Oeste;Loja Física;Sim;3;18;28/08/2022;Consumidor Final;Boleto;Distribuidora Epsilon
+432;Micro-ondas modelo 849;Micro-ondas;Brastemp;2265,76;1798,22;26;195.12;A;30.01;Sul;E-commerce;Sim;5;24;25/12/2023;Revendedor;Dinheiro;Distribuidora Epsilon
+433;Ar Condicionado modelo 632;Ar Condicionado;LG;1708,9;1412,31;21;148.36;D;80.66;Centro-Oeste;Loja Física;Sim;1;18;28/06/2022;Revendedor;Dinheiro;Fornecedor Delta
+434;Máquina de Lavar modelo 870;Máquina de Lavar;Whirlpool;2252,05;1643,83;37;446.03;B;48.41;Norte;E-commerce;Sim;3;12;11/11/2023;Revendedor;Boleto;Fornecedora Gamma
+435;Geladeira modelo 356;Geladeira;Samsung;1374,66;1117,61;23;447.32;D;49.76;Sudeste;E-commerce;Não;2;18;24/07/2022;Consumidor Final;Dinheiro;Fornecedora Gamma
+436;Fogão modelo 103;Fogão;Consul;2637,66;1758,44;50;132.14;A;33.78;Nordeste;E-commerce;Não;5;24;25/09/2023;Consumidor Final;Cartão;Distribuidora Beta
+437;Fogão modelo 868;Fogão;Philco;2339,06;1799,28;30;341.44;D;60.94;Centro-Oeste;Loja Física;Sim;5;24;20/05/2022;Revendedor;Boleto;Fornecedor Delta
+438;Ar Condicionado modelo 825;Ar Condicionado;Consul;1502,34;1001,56;50;140.24;D;99.96;Sudeste;E-commerce;Sim;5;24;28/09/2022;Consumidor Final;Boleto;Fornecedora Gamma
+439;Ar Condicionado modelo 958;Ar Condicionado;LG;733,89;547,68;34;279.69;D;20.78;Norte;E-commerce;Não;1;12;22/01/2023;Revendedor;Boleto;Fornecedor Delta
+440;Máquina de Lavar modelo 933;Máquina de Lavar;LG;1832,15;1539,62;19;69.41;C;25.25;Nordeste;Loja Física;Sim;1;36;17/04/2023;Revendedor;PIX;Distribuidora Beta
+441;Ar Condicionado modelo 635;Ar Condicionado;Samsung;1130,45;974,53;16;112.12;B;25.34;Sul;Loja Física;Sim;5;12;09/09/2023;Consumidor Final;Dinheiro;Distribuidora Beta
+442;Geladeira modelo 790;Geladeira;Consul;529,17;419,98;26;288.13;A;25.2;Nordeste;E-commerce;Não;3;24;15/07/2023;Revendedor;PIX;Distribuidora Alfa
+443;Micro-ondas modelo 138;Micro-ondas;Electrolux;2019,17;1589,90;27;460.16;D;51.86;Sudeste;E-commerce;Não;3;18;24/09/2022;Revendedor;PIX;Distribuidora Alfa
+444;Ar Condicionado modelo 758;Ar Condicionado;LG;2593,23;1906,79;36;80.58;B;8.02;Sul;Loja Física;Sim;4;18;07/03/2023;Consumidor Final;Boleto;Fornecedora Gamma
+445;Secadora modelo 851;Secadora;Brastemp;716,21;477,47;50;262.27;D;11.48;Nordeste;Loja Física;Sim;4;18;06/07/2022;Consumidor Final;Cartão;Distribuidora Epsilon
+446;Máquina de Lavar modelo 353;Máquina de Lavar;Consul;1597,65;1117,24;43;376.36;D;83.45;Sudeste;E-commerce;Sim;2;12;30/01/2022;Consumidor Final;Cartão;Fornecedor Delta
+447;Secadora modelo 403;Secadora;Whirlpool;559,67;462,54;21;305.25;D;20.39;Centro-Oeste;Loja Física;Sim;2;18;10/02/2023;Revendedor;Cartão;Fornecedora Gamma
+448;Secadora modelo 331;Secadora;Philco;2054,17;1378,64;49;371.36;C;58.86;Sudeste;Loja Física;Sim;4;36;09/04/2023;Revendedor;Dinheiro;Fornecedora Gamma
+449;Ar Condicionado modelo 816;Ar Condicionado;Whirlpool;1417,88;1042,56;36;322.03;C;42.4;Sudeste;E-commerce;Não;4;18;25/03/2022;Consumidor Final;Cartão;Distribuidora Alfa
+450;Micro-ondas modelo 293;Micro-ondas;Consul;1771,62;1554,05;14;85.89;D;89.5;Centro-Oeste;Loja Física;Sim;1;24;01/06/2023;Consumidor Final;Boleto;Distribuidora Alfa
+451;Máquina de Lavar modelo 501;Máquina de Lavar;Whirlpool;1209,37;895,83;35;311.27;B;50.47;Nordeste;Loja Física;Sim;2;24;29/01/2023;Revendedor;PIX;Distribuidora Epsilon
+452;Secadora modelo 583;Secadora;Consul;264,25;231,80;14;447.72;C;36.72;Sul;E-commerce;Sim;1;18;20/02/2022;Revendedor;Dinheiro;Fornecedora Gamma
+453;Ar Condicionado modelo 850;Ar Condicionado;Electrolux;1991,12;1531,63;30;314.79;B;69.72;Norte;E-commerce;Sim;3;18;13/01/2022;Consumidor Final;Boleto;Fornecedora Gamma
+454;Geladeira modelo 699;Geladeira;Electrolux;2480,28;1771,63;40;245.6;B;72.42;Nordeste;E-commerce;Sim;4;12;30/01/2023;Consumidor Final;PIX;Fornecedor Delta
+455;Ar Condicionado modelo 297;Ar Condicionado;LG;572,59;403,23;42;453.06;D;39.88;Sul;E-commerce;Não;1;12;01/02/2022;Revendedor;Cartão;Fornecedora Gamma
+456;Secadora modelo 254;Secadora;Samsung;1751,67;1307,22;34;388.02;C;67.34;Norte;E-commerce;Não;1;24;18/08/2022;Revendedor;Cartão;Distribuidora Beta
+457;Secadora modelo 878;Secadora;Samsung;1302,15;1142,24;14;109.65;B;95.83;Norte;Loja Física;Sim;3;12;14/06/2022;Revendedor;Boleto;Distribuidora Beta
+458;Máquina de Lavar modelo 151;Máquina de Lavar;LG;1261,24;927,38;36;117.44;B;91.35;Sudeste;Loja Física;Sim;4;12;19/05/2023;Consumidor Final;Dinheiro;Distribuidora Alfa
+459;Ar Condicionado modelo 371;Ar Condicionado;Brastemp;1891,36;1537,69;23;59.77;C;63.69;Sudeste;Loja Física;Sim;5;12;19/09/2022;Revendedor;PIX;Distribuidora Alfa
+460;Micro-ondas modelo 141;Micro-ondas;Philco;416,1;317,63;31;413.5;B;89.42;Norte;E-commerce;Sim;4;36;07/10/2023;Consumidor Final;PIX;Fornecedor Delta
+461;Geladeira modelo 312;Geladeira;Electrolux;2266;1531,08;48;61.89;D;6.64;Sudeste;Loja Física;Sim;4;12;16/08/2023;Revendedor;Dinheiro;Distribuidora Alfa
+462;Secadora modelo 212;Secadora;Consul;2200,57;1705,87;29;492.83;B;55.56;Sudeste;E-commerce;Sim;3;24;22/10/2023;Revendedor;PIX;Distribuidora Beta
+463;Ar Condicionado modelo 319;Ar Condicionado;Consul;2439,16;1729,90;41;355.6;A;79.01;Nordeste;Loja Física;Sim;3;36;20/12/2022;Revendedor;Cartão;Distribuidora Alfa
+464;Geladeira modelo 818;Geladeira;Samsung;515,49;456,19;13;79.77;B;75.65;Norte;E-commerce;Não;4;18;03/09/2023;Consumidor Final;Cartão;Distribuidora Alfa
+465;Fogão modelo 162;Fogão;Brastemp;1602,73;1381,66;16;333.74;D;67.16;Sudeste;E-commerce;Sim;3;36;30/03/2023;Consumidor Final;Cartão;Distribuidora Beta
+466;Micro-ondas modelo 714;Micro-ondas;Consul;453,69;374,95;21;276.38;B;52.98;Sudeste;Loja Física;Sim;3;12;25/05/2023;Consumidor Final;Boleto;Fornecedora Gamma
+467;Geladeira modelo 693;Geladeira;Whirlpool;1123,11;920,58;22;315.12;C;46.16;Nordeste;E-commerce;Não;3;36;08/08/2022;Revendedor;Boleto;Fornecedora Gamma
+468;Geladeira modelo 336;Geladeira;Samsung;2311,07;1616,13;43;103.99;C;69.32;Nordeste;Loja Física;Não;2;36;01/04/2023;Revendedor;Boleto;Distribuidora Epsilon
+469;Máquina de Lavar modelo 563;Máquina de Lavar;Brastemp;259,26;225,44;15;348.52;D;25.88;Sudeste;Loja Física;Não;2;18;09/09/2023;Consumidor Final;Dinheiro;Fornecedora Gamma
+470;Máquina de Lavar modelo 327;Máquina de Lavar;Philco;680,94;619,04;10;300.91;A;86.57;Centro-Oeste;E-commerce;Não;4;18;02/05/2023;Revendedor;Boleto;Distribuidora Epsilon
+471;Micro-ondas modelo 217;Micro-ondas;Philco;613,78;494,98;24;179.68;D;94.39;Centro-Oeste;Loja Física;Não;1;24;22/01/2022;Revendedor;Cartão;Distribuidora Epsilon
+472;Micro-ondas modelo 336;Micro-ondas;Samsung;732,85;538,86;36;371.48;A;59.25;Sul;E-commerce;Sim;4;24;23/01/2022;Revendedor;Cartão;Distribuidora Beta
+473;Geladeira modelo 479;Geladeira;Brastemp;2178,46;1830,64;19;116.56;C;99.65;Sul;E-commerce;Não;1;36;26/06/2022;Revendedor;Dinheiro;Distribuidora Epsilon
+474;Secadora modelo 417;Secadora;Brastemp;1119,31;999,38;12;343.3;A;92.36;Sudeste;E-commerce;Sim;1;24;24/08/2023;Revendedor;Boleto;Distribuidora Alfa
+475;Fogão modelo 635;Fogão;LG;1786,33;1323,21;35;345.7;B;99.46;Sul;Loja Física;Não;1;24;30/03/2022;Consumidor Final;Boleto;Distribuidora Beta
+476;Ar Condicionado modelo 326;Ar Condicionado;Samsung;534,31;481,36;11;165.0;C;57.73;Centro-Oeste;E-commerce;Não;2;12;02/10/2022;Consumidor Final;PIX;Fornecedor Delta
+477;Máquina de Lavar modelo 276;Máquina de Lavar;Brastemp;283,95;210,33;35;417.24;A;55.18;Nordeste;Loja Física;Não;5;36;29/08/2022;Consumidor Final;Cartão;Fornecedor Delta
+478;Geladeira modelo 696;Geladeira;Electrolux;814,44;702,10;16;253.57;D;33.06;Sudeste;Loja Física;Não;2;12;18/03/2022;Consumidor Final;PIX;Distribuidora Beta
+479;Fogão modelo 485;Fogão;Whirlpool;1433,75;988,79;45;316.42;C;5.11;Nordeste;Loja Física;Sim;2;12;19/05/2023;Revendedor;Cartão;Fornecedor Delta
+480;Ar Condicionado modelo 512;Ar Condicionado;Samsung;950,9;856,67;11;365.84;B;93.87;Nordeste;E-commerce;Não;4;36;22/08/2022;Consumidor Final;PIX;Distribuidora Epsilon
+481;Geladeira modelo 455;Geladeira;Electrolux;1971,75;1552,56;27;386.52;C;22.69;Nordeste;Loja Física;Sim;5;12;29/06/2022;Revendedor;Boleto;Distribuidora Epsilon
+482;Micro-ondas modelo 835;Micro-ondas;Whirlpool;528,31;451,55;17;165.85;C;33.16;Norte;Loja Física;Não;5;18;23/08/2023;Revendedor;Cartão;Distribuidora Alfa
+483;Geladeira modelo 808;Geladeira;Consul;1222,49;1027,30;19;490.13;D;16.79;Nordeste;Loja Física;Sim;3;18;07/08/2022;Revendedor;PIX;Fornecedor Delta
+484;Fogão modelo 244;Fogão;Brastemp;824,61;654,45;26;433.28;B;64.21;Sul;E-commerce;Sim;4;36;01/10/2023;Consumidor Final;Boleto;Distribuidora Alfa
+485;Micro-ondas modelo 944;Micro-ondas;Electrolux;1655,48;1174,10;41;267.06;B;14.77;Sul;E-commerce;Sim;2;36;14/02/2023;Consumidor Final;Dinheiro;Fornecedor Delta
+486;Secadora modelo 146;Secadora;LG;1182,86;810,18;46;452.55;C;73.27;Nordeste;Loja Física;Sim;1;18;22/06/2023;Revendedor;Boleto;Distribuidora Alfa
+487;Secadora modelo 224;Secadora;Brastemp;1909,57;1290,25;48;305.62;A;13.61;Sudeste;E-commerce;Não;5;36;02/08/2023;Consumidor Final;Cartão;Fornecedor Delta
+488;Máquina de Lavar modelo 713;Máquina de Lavar;Consul;898,14;632,49;42;150.06;A;34.31;Norte;Loja Física;Não;3;24;12/10/2022;Revendedor;Dinheiro;Fornecedor Delta
+489;Ar Condicionado modelo 155;Ar Condicionado;Samsung;2153,28;1939,89;11;228.24;B;77.06;Centro-Oeste;E-commerce;Não;2;12;17/09/2022;Consumidor Final;Boleto;Fornecedor Delta
+490;Máquina de Lavar modelo 620;Máquina de Lavar;Consul;2921,08;1973,70;48;230.04;A;7.71;Centro-Oeste;E-commerce;Sim;1;18;05/09/2023;Revendedor;PIX;Distribuidora Alfa
+491;Geladeira modelo 588;Geladeira;LG;905,53;680,85;33;413.02;B;92.69;Norte;Loja Física;Não;3;36;23/01/2022;Consumidor Final;Cartão;Fornecedora Gamma
+492;Máquina de Lavar modelo 217;Máquina de Lavar;Consul;2157,66;1659,74;30;329.45;A;64.83;Sudeste;E-commerce;Sim;3;18;21/08/2022;Consumidor Final;Cartão;Distribuidora Beta
+493;Geladeira modelo 966;Geladeira;Samsung;1327,77;928,51;43;294.41;C;81.54;Norte;Loja Física;Não;3;24;03/12/2023;Revendedor;Cartão;Distribuidora Beta
+494;Secadora modelo 173;Secadora;Philco;625,03;548,27;14;482.69;C;74.42;Centro-Oeste;Loja Física;Não;3;12;31/05/2022;Consumidor Final;PIX;Fornecedor Delta
+495;Micro-ondas modelo 911;Micro-ondas;Brastemp;2061,56;1792,66;15;109.92;A;21.14;Sudeste;Loja Física;Não;4;36;26/09/2023;Revendedor;Dinheiro;Fornecedor Delta
+496;Fogão modelo 919;Fogão;Electrolux;1361,13;1039,03;31;212.43;B;39.62;Sul;Loja Física;Sim;4;12;08/09/2023;Consumidor Final;PIX;Fornecedor Delta
+497;Máquina de Lavar modelo 559;Máquina de Lavar;Brastemp;1170,33;1044,94;12;343.49;B;42.32;Sudeste;Loja Física;Sim;3;18;11/03/2022;Consumidor Final;PIX;Distribuidora Alfa
+498;Micro-ondas modelo 749;Micro-ondas;Samsung;1963,8;1664,24;18;386.61;C;41.65;Sul;Loja Física;Sim;4;24;17/09/2022;Consumidor Final;PIX;Fornecedor Delta
+499;Máquina de Lavar modelo 849;Máquina de Lavar;Samsung;1308,18;1081,14;21;349.75;C;30.97;Norte;Loja Física;Sim;3;24;23/01/2022;Consumidor Final;Cartão;Fornecedora Gamma
+500;Micro-ondas modelo 678;Micro-ondas;Consul;1578,85;1294,14;22;175.86;C;46.51;Sudeste;E-commerce;Sim;4;12;12/06/2023;Revendedor;Boleto;Distribuidora Beta
+501;Micro-ondas modelo 629;Micro-ondas;Consul;2455,8;1949,05;26;61.61;C;65.97;Nordeste;Loja Física;Sim;3;24;03/11/2022;Revendedor;Boleto;Fornecedora Gamma
+502;Ar Condicionado modelo 529;Ar Condicionado;Samsung;1483,67;1246,78;19;238.19;A;51.17;Nordeste;E-commerce;Não;2;12;12/07/2022;Revendedor;Dinheiro;Distribuidora Beta
+503;Ar Condicionado modelo 217;Ar Condicionado;Brastemp;2464,24;1940,35;27;333.82;C;21.32;Norte;Loja Física;Não;4;36;13/09/2023;Consumidor Final;PIX;Fornecedora Gamma
+504;Secadora modelo 257;Secadora;LG;1263,91;1071,11;18;353.42;A;42.08;Norte;Loja Física;Sim;5;12;20/06/2022;Consumidor Final;Dinheiro;Distribuidora Alfa
+505;Micro-ondas modelo 647;Micro-ondas;Brastemp;2000,35;1481,74;35;211.32;A;97.69;Nordeste;E-commerce;Sim;1;18;27/10/2023;Revendedor;Dinheiro;Distribuidora Alfa
+506;Geladeira modelo 481;Geladeira;Consul;752,46;637,68;18;244.42;B;20.96;Sul;Loja Física;Sim;2;12;09/11/2022;Revendedor;Boleto;Distribuidora Beta
+507;Micro-ondas modelo 858;Micro-ondas;Philco;913,74;801,53;14;356.73;D;72.34;Sudeste;E-commerce;Sim;3;36;30/01/2023;Consumidor Final;Dinheiro;Distribuidora Beta
+508;Máquina de Lavar modelo 811;Máquina de Lavar;Philco;1478,23;1026,55;44;420.17;B;51.37;Nordeste;Loja Física;Sim;4;24;08/05/2023;Revendedor;PIX;Fornecedora Gamma
+509;Fogão modelo 918;Fogão;Philco;2258,3;1866,36;21;421.94;C;46.95;Norte;Loja Física;Não;1;24;29/07/2023;Consumidor Final;Boleto;Distribuidora Beta
+510;Secadora modelo 469;Secadora;Electrolux;2091,89;1757,89;19;103.35;D;57.1;Centro-Oeste;Loja Física;Sim;4;12;09/05/2023;Revendedor;Cartão;Fornecedor Delta
+511;Micro-ondas modelo 302;Micro-ondas;Electrolux;2491,27;1961,63;27;446.12;D;24.02;Nordeste;Loja Física;Sim;1;24;31/07/2023;Revendedor;PIX;Fornecedora Gamma
+512;Máquina de Lavar modelo 268;Máquina de Lavar;Consul;376,42;319,00;18;283.08;B;48.38;Nordeste;Loja Física;Não;3;36;05/12/2022;Revendedor;Boleto;Fornecedora Gamma
+513;Micro-ondas modelo 465;Micro-ondas;Whirlpool;464,06;320,04;45;410.14;D;58.28;Sul;Loja Física;Sim;5;36;10/08/2023;Consumidor Final;Dinheiro;Distribuidora Epsilon
+514;Secadora modelo 736;Secadora;Philco;2059,06;1790,49;15;415.27;A;47.78;Sul;Loja Física;Sim;1;36;08/09/2023;Revendedor;Cartão;Fornecedora Gamma
+515;Micro-ondas modelo 978;Micro-ondas;Brastemp;1804,95;1640,86;10;301.15;B;49.64;Sul;E-commerce;Não;2;36;29/01/2023;Revendedor;Boleto;Distribuidora Epsilon
+516;Ar Condicionado modelo 936;Ar Condicionado;Electrolux;1180,16;1053,71;12;347.98;B;59.47;Centro-Oeste;E-commerce;Não;1;12;08/12/2022;Consumidor Final;Dinheiro;Fornecedor Delta
+517;Fogão modelo 715;Fogão;LG;1006,23;723,91;39;297.65;C;91.9;Centro-Oeste;Loja Física;Sim;1;36;27/09/2023;Revendedor;Cartão;Distribuidora Alfa
+518;Fogão modelo 477;Fogão;Samsung;1958,6;1399,00;40;232.69;B;53.85;Sudeste;Loja Física;Sim;5;18;24/09/2022;Consumidor Final;Boleto;Distribuidora Alfa
+519;Micro-ondas modelo 141;Micro-ondas;LG;401,32;308,71;30;231.04;C;86.45;Sul;Loja Física;Não;1;12;18/07/2022;Consumidor Final;Boleto;Distribuidora Beta
+520;Máquina de Lavar modelo 811;Máquina de Lavar;Consul;2068,19;1406,93;47;281.88;A;49.15;Centro-Oeste;E-commerce;Sim;1;18;17/02/2023;Consumidor Final;Boleto;Distribuidora Beta
+521;Geladeira modelo 132;Geladeira;Electrolux;2347,52;1701,10;38;265.18;A;17.61;Sul;E-commerce;Não;3;12;01/04/2022;Revendedor;PIX;Distribuidora Epsilon
+522;Secadora modelo 765;Secadora;Samsung;2359,29;1787,34;32;400.22;A;36.15;Nordeste;Loja Física;Sim;2;36;22/07/2023;Consumidor Final;PIX;Distribuidora Beta
+523;Geladeira modelo 534;Geladeira;Whirlpool;690,12;466,30;48;435.87;B;65.02;Sul;Loja Física;Não;1;12;28/05/2023;Consumidor Final;PIX;Distribuidora Epsilon
+524;Secadora modelo 232;Secadora;Philco;846,49;631,71;34;171.02;A;77.27;Sul;Loja Física;Sim;5;12;11/02/2023;Revendedor;Dinheiro;Distribuidora Alfa
+525;Micro-ondas modelo 464;Micro-ondas;Philco;2353,91;1838,99;28;132.99;A;40.07;Nordeste;Loja Física;Não;5;12;30/08/2023;Revendedor;Dinheiro;Distribuidora Alfa
+526;Geladeira modelo 146;Geladeira;LG;2028,17;1748,42;16;372.6;B;25.36;Norte;Loja Física;Sim;4;12;11/03/2023;Revendedor;Boleto;Fornecedora Gamma
+527;Geladeira modelo 469;Geladeira;LG;1991,36;1327,57;50;249.91;A;19.1;Centro-Oeste;E-commerce;Sim;2;36;13/04/2022;Consumidor Final;Dinheiro;Distribuidora Epsilon
+528;Máquina de Lavar modelo 151;Máquina de Lavar;Electrolux;1958,25;1398,75;40;474.14;B;46.86;Norte;Loja Física;Sim;4;24;02/03/2022;Revendedor;Cartão;Distribuidora Epsilon
+529;Máquina de Lavar modelo 446;Máquina de Lavar;Consul;1099,24;931,56;18;251.99;D;38.75;Sudeste;Loja Física;Sim;3;36;01/01/2022;Consumidor Final;Boleto;Fornecedora Gamma
+530;Fogão modelo 761;Fogão;Consul;1259,78;839,85;50;330.16;C;41.1;Sul;E-commerce;Sim;2;12;09/01/2022;Consumidor Final;PIX;Distribuidora Epsilon
+531;Micro-ondas modelo 799;Micro-ondas;Brastemp;2542,52;1883,35;35;458.77;C;93.61;Centro-Oeste;E-commerce;Sim;2;36;23/06/2022;Revendedor;Boleto;Distribuidora Alfa
+532;Micro-ondas modelo 440;Micro-ondas;LG;1992,33;1364,61;46;486.49;D;66.62;Norte;E-commerce;Não;5;24;18/07/2022;Consumidor Final;Cartão;Distribuidora Epsilon
+533;Micro-ondas modelo 577;Micro-ondas;Samsung;1174,07;903,13;30;164.85;C;70.91;Centro-Oeste;Loja Física;Não;5;12;23/04/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+534;Secadora modelo 184;Secadora;Brastemp;1139,99;942,14;21;484.13;A;71.36;Nordeste;Loja Física;Sim;2;36;23/02/2023;Revendedor;PIX;Distribuidora Beta
+535;Fogão modelo 593;Fogão;Samsung;388,76;268,11;45;284.65;C;12.0;Centro-Oeste;Loja Física;Sim;5;18;07/04/2022;Revendedor;Cartão;Distribuidora Epsilon
+536;Secadora modelo 316;Secadora;Brastemp;647,82;588,93;10;174.18;B;35.89;Sul;E-commerce;Sim;4;12;22/08/2022;Consumidor Final;Cartão;Distribuidora Alfa
+537;Máquina de Lavar modelo 976;Máquina de Lavar;Whirlpool;1167,82;981,36;19;237.42;D;29.08;Centro-Oeste;Loja Física;Não;2;36;17/01/2022;Revendedor;Boleto;Distribuidora Alfa
+538;Secadora modelo 529;Secadora;Brastemp;242,76;220,69;10;391.9;B;89.97;Nordeste;E-commerce;Não;1;12;21/09/2023;Consumidor Final;Boleto;Distribuidora Epsilon
+539;Micro-ondas modelo 910;Micro-ondas;Brastemp;453,33;356,95;27;381.75;C;99.26;Sul;Loja Física;Não;3;36;13/06/2023;Consumidor Final;Cartão;Fornecedora Gamma
+540;Micro-ondas modelo 804;Micro-ondas;Electrolux;1363,81;1073,87;27;400.89;A;80.43;Centro-Oeste;Loja Física;Sim;1;12;30/05/2023;Revendedor;Boleto;Distribuidora Epsilon
+541;Micro-ondas modelo 706;Micro-ondas;LG;2270,46;1816,37;25;148.33;B;41.66;Sudeste;E-commerce;Sim;1;36;17/05/2023;Revendedor;Cartão;Distribuidora Beta
+542;Geladeira modelo 153;Geladeira;Consul;2477,12;1651,41;50;291.8;D;64.48;Sul;Loja Física;Sim;2;36;21/06/2022;Revendedor;PIX;Fornecedora Gamma
+543;Máquina de Lavar modelo 660;Máquina de Lavar;Whirlpool;915,36;762,80;20;372.37;C;50.59;Sul;E-commerce;Sim;2;18;08/05/2022;Consumidor Final;PIX;Fornecedor Delta
+544;Máquina de Lavar modelo 723;Máquina de Lavar;Samsung;1301,93;879,68;48;286.22;C;93.43;Sul;Loja Física;Sim;1;18;05/04/2022;Revendedor;PIX;Distribuidora Alfa
+545;Fogão modelo 955;Fogão;Consul;2320,5;1798,84;29;92.17;C;79.27;Nordeste;Loja Física;Não;5;36;02/02/2022;Revendedor;PIX;Distribuidora Epsilon
+546;Micro-ondas modelo 782;Micro-ondas;Electrolux;1619,37;1408,15;15;91.84;C;27.02;Nordeste;Loja Física;Não;1;12;08/10/2023;Consumidor Final;Cartão;Distribuidora Alfa
+547;Máquina de Lavar modelo 408;Máquina de Lavar;Brastemp;1794,91;1255,18;43;452.51;A;55.46;Nordeste;E-commerce;Sim;2;24;08/12/2022;Revendedor;Cartão;Fornecedor Delta
+548;Máquina de Lavar modelo 135;Máquina de Lavar;Consul;1604,62;1371,47;17;389.12;B;20.62;Nordeste;E-commerce;Não;3;24;03/09/2023;Consumidor Final;Cartão;Fornecedora Gamma
+549;Secadora modelo 341;Secadora;LG;427,22;309,58;38;64.21;D;41.42;Norte;E-commerce;Sim;3;12;13/07/2022;Consumidor Final;Boleto;Distribuidora Alfa
+550;Ar Condicionado modelo 451;Ar Condicionado;Electrolux;711,62;598,00;19;420.69;C;67.24;Sudeste;Loja Física;Não;2;18;10/01/2022;Consumidor Final;Boleto;Fornecedora Gamma
+551;Geladeira modelo 556;Geladeira;Samsung;1526,72;1304,89;17;157.24;C;93.35;Nordeste;E-commerce;Sim;1;12;05/12/2023;Consumidor Final;Dinheiro;Distribuidora Beta
+552;Micro-ondas modelo 354;Micro-ondas;Philco;535,32;366,66;46;377.92;A;80.96;Nordeste;Loja Física;Não;4;36;13/04/2022;Consumidor Final;Dinheiro;Fornecedora Gamma
+553;Secadora modelo 328;Secadora;Whirlpool;1087,41;724,94;50;494.08;B;85.04;Sudeste;Loja Física;Sim;4;12;24/04/2023;Consumidor Final;Dinheiro;Distribuidora Alfa
+554;Micro-ondas modelo 730;Micro-ondas;Whirlpool;2021,78;1657,20;22;481.43;B;76.27;Sudeste;Loja Física;Não;1;24;02/09/2023;Consumidor Final;Cartão;Distribuidora Epsilon
+555;Ar Condicionado modelo 501;Ar Condicionado;Brastemp;1908,14;1445,56;32;376.38;B;53.01;Norte;Loja Física;Sim;1;12;02/10/2022;Consumidor Final;Dinheiro;Fornecedor Delta
+556;Fogão modelo 627;Fogão;Philco;1259,78;1134,94;11;113.14;B;45.45;Centro-Oeste;E-commerce;Não;1;18;28/01/2022;Consumidor Final;Dinheiro;Distribuidora Epsilon
+557;Máquina de Lavar modelo 509;Máquina de Lavar;Consul;926,87;792,20;17;472.35;D;16.3;Centro-Oeste;E-commerce;Sim;5;36;07/02/2023;Consumidor Final;Boleto;Distribuidora Alfa
+558;Secadora modelo 283;Secadora;Samsung;2158,41;1509,38;43;379.17;B;45.16;Sul;Loja Física;Não;5;36;18/08/2022;Revendedor;Dinheiro;Distribuidora Alfa
+559;Máquina de Lavar modelo 829;Máquina de Lavar;Electrolux;1728,53;1416,83;22;81.59;C;34.43;Norte;E-commerce;Não;4;36;25/04/2022;Consumidor Final;PIX;Distribuidora Beta
+560;Ar Condicionado modelo 228;Ar Condicionado;Electrolux;1828,21;1562,57;17;335.81;C;78.49;Nordeste;E-commerce;Sim;5;12;14/05/2023;Consumidor Final;PIX;Distribuidora Alfa
+561;Geladeira modelo 445;Geladeira;LG;811,06;693,21;17;463.12;C;70.73;Norte;Loja Física;Não;3;18;21/03/2023;Revendedor;Boleto;Distribuidora Epsilon
+562;Secadora modelo 652;Secadora;Samsung;1029,64;740,75;39;244.05;D;73.03;Centro-Oeste;Loja Física;Não;1;18;18/09/2023;Revendedor;Boleto;Fornecedor Delta
+563;Fogão modelo 195;Fogão;LG;854,74;610,53;40;390.53;C;35.55;Norte;E-commerce;Sim;1;36;22/05/2022;Revendedor;PIX;Fornecedor Delta
+564;Ar Condicionado modelo 455;Ar Condicionado;Electrolux;1663,19;1231,99;35;116.8;C;34.9;Centro-Oeste;Loja Física;Sim;3;12;19/10/2023;Consumidor Final;Boleto;Fornecedora Gamma
+565;Secadora modelo 401;Secadora;Electrolux;864,87;732,94;18;457.38;B;25.24;Sudeste;E-commerce;Sim;4;24;24/11/2022;Revendedor;Boleto;Fornecedora Gamma
+566;Geladeira modelo 788;Geladeira;Samsung;2666,26;1851,57;44;213.49;B;99.82;Norte;E-commerce;Sim;2;36;19/09/2022;Consumidor Final;Cartão;Distribuidora Beta
+567;Máquina de Lavar modelo 881;Máquina de Lavar;Philco;1433,86;1268,90;13;229.48;A;62.05;Nordeste;Loja Física;Não;3;36;17/07/2023;Revendedor;Boleto;Distribuidora Beta
+568;Máquina de Lavar modelo 591;Máquina de Lavar;Consul;778,42;529,54;47;169.03;A;86.93;Centro-Oeste;Loja Física;Sim;5;36;10/07/2023;Revendedor;PIX;Distribuidora Beta
+569;Máquina de Lavar modelo 679;Máquina de Lavar;Samsung;2349,52;1714,98;37;260.86;A;73.05;Norte;Loja Física;Não;1;36;22/11/2023;Revendedor;Dinheiro;Fornecedora Gamma
+570;Fogão modelo 919;Fogão;Philco;1788,1;1286,40;39;434.87;D;54.93;Nordeste;Loja Física;Não;2;12;06/08/2022;Consumidor Final;Cartão;Fornecedora Gamma
+571;Máquina de Lavar modelo 644;Máquina de Lavar;Consul;1646,33;1151,28;43;230.26;C;87.26;Centro-Oeste;E-commerce;Sim;3;24;26/02/2023;Revendedor;Dinheiro;Distribuidora Epsilon
+572;Fogão modelo 478;Fogão;Philco;1594,82;1063,21;50;149.97;A;43.59;Sudeste;Loja Física;Sim;4;36;23/11/2023;Consumidor Final;Dinheiro;Distribuidora Alfa
+573;Micro-ondas modelo 666;Micro-ondas;Electrolux;1383,54;1056,14;31;263.29;C;64.68;Sul;Loja Física;Sim;2;36;06/05/2022;Revendedor;Boleto;Distribuidora Beta
+574;Máquina de Lavar modelo 210;Máquina de Lavar;Whirlpool;2705,57;1989,39;36;262.12;C;62.03;Centro-Oeste;Loja Física;Sim;4;24;15/08/2023;Revendedor;Boleto;Fornecedor Delta
+575;Ar Condicionado modelo 477;Ar Condicionado;Consul;2251,94;1801,55;25;471.17;B;42.97;Sudeste;Loja Física;Não;5;18;12/07/2023;Revendedor;Dinheiro;Distribuidora Alfa
+576;Secadora modelo 613;Secadora;Whirlpool;2087,45;1799,53;16;417.12;B;70.72;Nordeste;E-commerce;Sim;5;24;01/06/2022;Revendedor;Dinheiro;Fornecedor Delta
+577;Ar Condicionado modelo 815;Ar Condicionado;Whirlpool;2741,24;1890,51;45;297.82;A;36.71;Centro-Oeste;E-commerce;Sim;3;18;02/02/2023;Consumidor Final;Cartão;Distribuidora Epsilon
+578;Geladeira modelo 630;Geladeira;Consul;741,92;639,59;16;185.65;A;29.12;Centro-Oeste;Loja Física;Não;2;36;31/07/2023;Consumidor Final;Cartão;Fornecedora Gamma
+579;Geladeira modelo 568;Geladeira;LG;399,41;356,62;12;185.08;C;97.73;Centro-Oeste;Loja Física;Não;4;36;07/07/2022;Revendedor;Dinheiro;Distribuidora Beta
+580;Máquina de Lavar modelo 130;Máquina de Lavar;Philco;549,05;419,12;31;83.94;D;8.46;Sul;Loja Física;Sim;3;24;23/10/2023;Revendedor;PIX;Distribuidora Beta
+581;Secadora modelo 540;Secadora;Brastemp;1190,52;975,84;22;404.71;C;96.97;Nordeste;E-commerce;Não;2;12;04/11/2023;Consumidor Final;Cartão;Distribuidora Epsilon
+582;Máquina de Lavar modelo 177;Máquina de Lavar;Consul;2167,12;1444,75;50;442.85;A;57.94;Sudeste;E-commerce;Sim;5;12;24/09/2023;Revendedor;Boleto;Distribuidora Beta
+583;Ar Condicionado modelo 994;Ar Condicionado;Samsung;673,91;534,85;26;477.66;B;61.97;Norte;Loja Física;Sim;3;12;30/03/2022;Revendedor;Dinheiro;Distribuidora Epsilon
+584;Micro-ondas modelo 304;Micro-ondas;Whirlpool;2325,38;1816,70;28;110.27;C;31.0;Centro-Oeste;E-commerce;Sim;1;36;21/12/2022;Consumidor Final;Boleto;Distribuidora Alfa
+585;Micro-ondas modelo 201;Micro-ondas;Philco;1973,48;1731,12;14;204.61;B;14.17;Sudeste;Loja Física;Sim;1;12;06/10/2022;Revendedor;Boleto;Distribuidora Epsilon
+586;Micro-ondas modelo 791;Micro-ondas;Brastemp;2430,31;1944,25;25;174.38;C;80.84;Sul;E-commerce;Sim;1;24;06/06/2023;Consumidor Final;Boleto;Fornecedora Gamma
+587;Ar Condicionado modelo 764;Ar Condicionado;Electrolux;1728,46;1529,61;13;346.31;D;26.69;Norte;E-commerce;Não;2;18;11/03/2023;Revendedor;Cartão;Distribuidora Alfa
+588;Fogão modelo 155;Fogão;Philco;475,09;341,79;39;371.61;A;18.69;Sul;E-commerce;Não;2;24;13/04/2022;Revendedor;Boleto;Fornecedora Gamma
+589;Secadora modelo 554;Secadora;Whirlpool;1990,94;1761,89;13;407.4;D;61.5;Nordeste;E-commerce;Sim;2;12;24/06/2023;Revendedor;Cartão;Fornecedor Delta
+590;Fogão modelo 304;Fogão;Philco;2571,19;1918,80;34;90.24;B;83.13;Norte;Loja Física;Sim;2;24;05/02/2023;Revendedor;PIX;Distribuidora Beta
+591;Ar Condicionado modelo 675;Ar Condicionado;Consul;1271,84;1096,41;16;117.1;C;52.37;Sudeste;E-commerce;Não;4;12;29/05/2022;Consumidor Final;Dinheiro;Distribuidora Beta
+592;Fogão modelo 543;Fogão;Philco;555,91;487,64;14;415.28;D;65.13;Nordeste;Loja Física;Sim;2;18;04/02/2022;Consumidor Final;Boleto;Fornecedor Delta
+593;Fogão modelo 922;Fogão;Electrolux;2639,8;1808,08;46;372.91;C;28.98;Sul;Loja Física;Sim;2;36;28/06/2022;Revendedor;Cartão;Distribuidora Beta
+594;Micro-ondas modelo 447;Micro-ondas;Consul;1642,38;1164,81;41;337.69;A;9.94;Centro-Oeste;E-commerce;Não;1;36;30/03/2023;Revendedor;Cartão;Fornecedor Delta
+595;Geladeira modelo 240;Geladeira;Whirlpool;1202,51;932,18;29;232.09;D;68.49;Nordeste;Loja Física;Sim;3;24;15/02/2023;Consumidor Final;Cartão;Fornecedora Gamma
+596;Fogão modelo 581;Fogão;Electrolux;519,31;432,76;20;467.45;D;85.56;Nordeste;E-commerce;Sim;2;18;24/06/2023;Revendedor;PIX;Fornecedor Delta
+597;Máquina de Lavar modelo 100;Máquina de Lavar;Electrolux;857,45;752,15;14;249.25;A;35.44;Sul;Loja Física;Sim;2;18;09/04/2022;Revendedor;Boleto;Fornecedor Delta
+598;Secadora modelo 720;Secadora;Consul;1735,1;1204,93;44;405.4;D;83.06;Centro-Oeste;Loja Física;Não;1;36;17/12/2023;Revendedor;PIX;Distribuidora Epsilon
+599;Ar Condicionado modelo 374;Ar Condicionado;Brastemp;897,91;1204,93;34;279.58;A;84.78;Sul;Loja Física;Sim;5;24;27/06/2022;Consumidor Final;Cartão;Distribuidora Epsilon
+600;Secadora modelo 697;Secadora;Electrolux;2102,33;1512,47;39;418.64;A;42.66;Sul;Loja Física;Sim;3;36;25/11/2022;Consumidor Final;Cartão;Distribuidora Beta
